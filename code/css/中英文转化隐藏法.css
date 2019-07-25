@@ -1,0 +1,32 @@
+
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+ul{
+    height: 30px;
+    width: 800px;
+    border-bottom: 2px solid orange;
+    overflow: hidden;
+}
+li{
+    float: left;
+    height: 30px;
+    width: 100px;
+    margin:0 20px;
+    background: papayawhip;
+}
+li a{
+    display: block;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+
+li:hover .c{
+    display: none
+}
+li:hover .e{
+    display: block;
+}

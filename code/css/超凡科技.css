@@ -1,0 +1,626 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+/* header */
+#chaofan .header{
+    height: 80px;
+}
+#chaofan .header h1{
+    height: 80px;
+    width: 565px;
+    float: left;
+    background: url(../作业/超凡科技/images/logo.png) no-repeat;
+    background-position: 100px center;
+    text-indent: -999px;
+    
+}
+#chaofan .header ul{
+    height: 80px;
+    width: 784px;
+    float: left;
+    overflow: hidden;
+}
+#chaofan .header ul li{
+    height: 80px;
+    float: left;
+    margin: 0 18px;
+}
+
+#chaofan .header ul li a{
+    display: block;
+    font-size: 14px;
+    line-height: 80px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+#chaofan .header ul li:hover .c{
+    display: none;
+}
+#chaofan .header ul li:hover .e{
+    display: block;
+}
+
+/* nav */
+#chaofan .nav{
+    height: 448px;
+}
+
+/* banner */
+#chaofan .banner{
+    height: 728px;
+}
+h2{
+    height: 43px;
+    padding-top: 42px;
+    text-align: center;
+}
+h4{
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+    text-align: center;
+}
+#chaofan .banner ul{
+    display: table;
+    height: 218px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+#chaofan .banner .list1{
+    padding-top: 56px;
+}
+#chaofan .banner ul li{
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    height: 218px;
+    width: 352px;
+    margin:0 21px;
+    position: relative; 
+    
+}
+
+#chaofan .banner ul li h3{
+    width:228px;
+    height: 70px;
+    font-size: 24px "微软雅黑";
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#chaofan .banner ul li .dd1{
+    width: 352px;
+    height: 218px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.6s; 
+    display: none;
+}
+.y1,.y2{
+    display: block;
+    font-size: 16px "微软雅黑";
+    line-height: 24px ;
+    width: 352px ;
+    text-align: center;
+    color: #fff;
+}
+.y1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.y2{
+    padding-top: 190px;
+} 
+#chaofan .banner ul li a{
+    display: block;
+    width: 352px;
+    height: 218px;
+}
+#chaofan .banner ul li:hover .dd1{
+     display: block;
+      
+}
+
+
+/* #chaofan .banner .list1 li .a1{background: rgba(0, 47, 100, .8)}
+#chaofan .banner .list1 li .a2{background: rgba(0, 0, 255, .8)}
+#chaofan .banner .list1 li .a3{background: rgba(255, 208, 0, .8)}
+#chaofan .banner .list2 li .a4{background: rgba(255, 0, 179, .8)}
+#chaofan .banner .list2 li .a5{background: rgba(255, 0, 0, .8)}
+#chaofan .banner .list2 li .a6{background: rgba(0, 255, 0, .8)}
+#chaofan .banner a:hover{
+    width: 250px;
+    height: 100px;
+    opacity: 1;
+} */
+
+/* main1 */
+#chaofan .main1{
+    height: 764px;
+    background: #ebeff1;
+}
+#chaofan .main1 ul{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    height: 166px;
+}
+#chaofan .main1 ul li{
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    height:166px ;
+    width: 283px;
+    background: #fff; 
+    margin: 1px 1px; 
+}
+#chaofan .main1 .list3 li:nth-child(1){
+    background: url(../作业/超凡科技/images/okcf2.png);
+}
+#chaofan .main1 .list3 li:nth-child(2){
+    background: url(../作业/超凡科技/images/ptzt2.png);
+}
+#chaofan .main1 .list3 li:nth-child(3){
+    background: url(../作业/超凡科技/images/wdzj2.png);
+}
+#chaofan .main1 .list3 li:nth-child(4){
+    background: url(../作业/超凡科技/images/gl2.png);
+}
+#chaofan .main1 .list4 li:nth-child(1){
+    background: url(../作业/超凡科技/images/jmw2.png);
+}
+#chaofan .main1 .list4 li:nth-child(2){
+    background: url(../作业/超凡科技/images/tjw2.png);
+}
+#chaofan .main1 .list4 li:nth-child(3){
+    background: url(../作业/超凡科技/images/hl2.png);
+}
+#chaofan .main1 .list4 li:nth-child(4){
+    background: url(../作业/超凡科技/images/sx2.png);
+}
+#chaofan .main1 .list5 li:nth-child(1){
+    background: url(../作业/超凡科技/images/ft2.png);
+}
+#chaofan .main1 .list5 li:nth-child(2){
+    background: url(../作业/超凡科技/images/hy2.png);
+}
+#chaofan .main1 .list5 li:nth-child(3){
+    background: url(../作业/超凡科技/images/lzy2.png);
+}
+#chaofan .main1 .list5 li:nth-child(4){
+    background: url(../作业/超凡科技/images/ys2.png);
+}
+#chaofan .main1 a{
+    display: block;
+    width: 283px;
+    height: 166px;
+}
+#chaofan .main1 .a1:hover{
+    background: url(../作业/超凡科技/images/okcf1.png);
+} 
+#chaofan .main1 .a2:hover{
+    background: url(../作业/超凡科技/images/ptzt1.png);
+} 
+#chaofan .main1 .a3:hover{
+    background: url(../作业/超凡科技/images/wdzj1.png);
+} 
+#chaofan .main1 .a4:hover{
+    background: url(../作业/超凡科技/images/gl1.png);
+} 
+#chaofan .main1 .a5:hover{
+    background: url(../作业/超凡科技/images/jmw1.png);
+} 
+#chaofan .main1 .a6:hover{
+    background: url(../作业/超凡科技/images/tjw1.png);
+} 
+#chaofan .main1 .a7:hover{
+    background: url(../作业/超凡科技/images/hl1.png);
+} 
+#chaofan .main1 .a8:hover{
+    background: url(../作业/超凡科技/images/sx1.png);
+} 
+#chaofan .main1 .a9:hover{
+    background: url(../作业/超凡科技/images/ft1.png);
+} 
+#chaofan .main1 .a10:hover{
+    background: url(../作业/超凡科技/images/hy1.png);
+} 
+#chaofan .main1 .a11:hover{
+    background: url(../作业/超凡科技/images/lzy1.png);
+} 
+#chaofan .main1 .a12:hover{
+    background: url(../作业/超凡科技/images/ys1.png);
+} 
+
+/* main2 */
+#chaofan .main2{
+    height: 682px;
+}
+#chaofan .main2 ul{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    height: 211px;
+}
+#chaofan .main2 ul li{
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    width: 283px;
+    margin:0 1px;
+}
+#chaofan .main2 ul li img{
+    display: block;
+}
+#chaofan .main2 .list6{
+    margin-top: 56px;
+    margin-bottom: 1px;
+}
+#chaofan .main2 img:hover{
+    opacity: 0.5;
+}
+
+/* main3 */
+#chaofan .main3{
+    height: 800px;
+    background: #6bb2d0;
+}
+#chaofan .main3 .box1{
+    width: 1184px;
+    height: 568px;
+    margin: 56px auto;
+    
+}
+#chaofan .main3 .box1 ul{
+    width: 1184px;
+    height: 568px;
+}
+#chaofan .main3 .box1 ul li{
+    float: left;
+    width: 548px;
+    height: 166px;
+    margin: 8px 20px;
+    background: #fff;   
+}
+#chaofan .main3 .box1 ul li img{
+    display: block;
+    float: left;
+}
+#chaofan .main3 .box1 ul li h3{
+    width: 380px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+    padding:30px 0 0 190px;
+}
+#chaofan .main3 .box1 ul li .p1{
+    width: 346px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #777777;
+    padding: 13px 0 0 20px;
+    text-indent: 2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -moz-webkit: line clamp 3;
+    -webkit-box-orient: vertical;
+}
+#chaofan .main3 .box1 ul li .p2{
+    width: 330px;
+    margin-left: 190px;
+    margin-top: 13px;
+}
+#chaofan .main3 .box1 ul li .p2 span{
+    font-size: 10px;
+    color: #ccccd5;
+}
+#chaofan .main3 .s1{
+    float: left;
+}
+#chaofan .main3 .s2{
+    float: right;
+}
+
+/* main4 */
+#chaofan .main4{
+    height: 910px;
+}
+#chaofan .main4 ul{
+    height: 130px;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+}
+#chaofan .main4 ul li{
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    height: 130px;
+    width: 285px;
+    border-bottom: 2px solid #e6e6e6;
+}
+#chaofan .main4 ul li:nth-child(1){
+    background: url(../作业/超凡科技/images/wh1_05.jpg) no-repeat center top;
+}
+#chaofan .main4 ul li:nth-child(2){
+    background: url(../作业/超凡科技/images/wh2_05.jpg) no-repeat center top;
+}
+#chaofan .main4 ul li:nth-child(3){
+    background: url(../作业/超凡科技/images/wh3_05.jpg) no-repeat center top;
+}
+#chaofan .main4 ul li:nth-child(4){
+    background: url(../作业/超凡科技/images/wh4_05.jpg) no-repeat center top;
+}
+
+#chaofan .main4 ul li P{
+    width: 285px;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    padding-top: 100px;
+    color: #b2b2b2;
+}
+#chaofan .main4 ul li:nth-child(1):hover {
+    border-bottom: 2px solid #0093dd;
+    background: url(../作业/超凡科技/images/w1_05.jpg) no-repeat center top;
+}
+#chaofan .main4 ul li:nth-child(2):hover {
+    border-bottom: 2px solid #0093dd;
+    background: url(../作业/超凡科技/images/w1_05.jpg) no-repeat center top;
+}
+#chaofan .main4 ul li:nth-child(3):hover {
+    border-bottom: 2px solid #0093dd;
+    background: url(../作业/超凡科技/images/w1_05.jpg) no-repeat center top;
+}
+#chaofan .main4 ul li:nth-child(4):hover {
+    border-bottom: 2px solid #0093dd;
+    background: url(../作业/超凡科技/images/w1_05.jpg) no-repeat center top;
+}
+#chaofan .main4 .img1{
+   display: block;
+   margin: 50px auto;
+}
+
+/* main5 */
+#chaofan .main5{
+    height: 220px;
+    background: #0062c0;
+}
+#chaofan .main5 ul{
+    height: 134px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 46px;
+}
+#chaofan .main5 ul li{
+    height: 134px;
+    width: 379px;
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    border-right: 1px solid #0052a7;
+}
+#chaofan .main5 ul li h3{
+    font-size: 66px;
+    line-height: 66px;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    
+    position: relative;
+}
+#chaofan .main5 ul li .r1{
+    display: block;
+}
+#chaofan .main5 ul .r2{
+    display: block;
+    width: 200px;
+    height: 3px;
+    background:#0062c0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#chaofan .main5 ul li p{
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    padding-top: 32px;
+}
+
+
+/* footer */
+#chaofan .footer{
+    height: 662px;
+    background: url(../作业/超凡科技/images/footer_bj.jpg) no-repeat;
+}
+.list7,.list8{
+    height: 54px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 54px;
+}
+#chaofan .footer .list7 li{
+    height: 54px;
+    width: 210px;
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+}
+#chaofan .footer .list7 li:nth-child(1){
+    background: url(../作业/超凡科技/images/foot_tel.png) no-repeat;
+}
+#chaofan .footer .list7 li:nth-child(2){
+    background: url(../作业/超凡科技/images/foot_wx.png) no-repeat;
+}
+#chaofan .footer .list7 li:nth-child(3){
+    background: url(../作业/超凡科技/images/foot_qq.png) no-repeat;
+}
+#chaofan .footer .list7 li:nth-child(4){
+    background: url(../作业/超凡科技/images/foot_sq.png) no-repeat;
+}
+#chaofan .footer .list7 li p{
+    font-size: 16px;
+    padding-left: 70px;
+}
+#chaofan .footer .list7 li .d1{
+    padding-top: 1px;
+    color: #cbcbcb;
+}
+#chaofan .footer .list7 li .d2{
+    padding-top: 10px;
+    color: #fff;
+}
+#chaofan .footer .list8{
+    height: 80px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 42px;
+}
+#chaofan .footer .list8 li{
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    height: 80px;
+    width: 266px;
+    margin: 0 14px;
+    border: 1px solid #333333;
+}
+#chaofan .footer .list8 li p{
+    font-size: 16px;
+    width: 150px;
+    height: 16px;
+    color: #aaaaaa;
+    padding: 30px 0 0 69px;
+}
+#chaofan .footer .list8 li:nth-child(1){
+    background: url(../作业/超凡科技/images/foot_c1.png)no-repeat;
+}
+#chaofan .footer .list8 li:nth-child(2){
+    background: url(../作业/超凡科技/images/foot_c2.png)no-repeat;
+}
+#chaofan .footer .list8 li:nth-child(3){
+    background: url(../作业/超凡科技/images/foot_c3.png)no-repeat;
+}
+#chaofan .footer .list8 li:nth-child(4){
+    background: url(../作业/超凡科技/images/foot_c4.png)no-repeat;
+}
+#chaofan .footer .boxx{
+    width: 1172px;
+    height: 220px;
+    margin: 58px 0 0 94px;
+    border-bottom:2px solid #4d4d4d;
+}
+#chaofan .footer .list9{
+    width: 816px;
+    height: 220px;
+    float: left;
+}
+#chaofan .footer .list9 li{
+    font-size: 14px;
+    height: 14px;
+    color: #7f7f7f;
+    padding-top: 20px;
+}
+#chaofan .footer .list10{
+    float: left;
+    height: 220px;
+    width: 356px;
+
+}
+#chaofan .footer .list10 li{
+    height: 220px;
+    width: 140px;
+    float: left;
+}
+#chaofan .footer .list10 li:nth-child(1){
+    background: url(../作业/超凡科技/images/kang_05.jpg) no-repeat;
+    margin-right: 20px;
+}
+#chaofan .footer .list10 li:nth-child(2){
+    background: url(../作业/超凡科技/images/tian_05.jpg) no-repeat;
+}
+#chaofan .footer .list10 li p{
+    font-size: 12px;
+    color: #fff;
+    padding:150px 0 0 48px;
+}
+
+/* beizhu */
+#chaofan .beizhu{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 999;
+    width: 48px;
+}
+
+.ls1 li{
+   width: 34px;
+   height: 34px;
+   background: url(../作业/超凡科技/images/d.png) no-repeat center center;
+}
+.ls2{
+    width:48px; 
+    
+}
+.ls2 li{
+    width: 48px;
+    height: 47px;
+    
+}
+
+.ls1 li:hover{
+    background: url(../作业/超凡科技/images/d1.png) no-repeat center center;
+}
+
+.ls2 li:nth-child(1){
+      background: url(../作业/超凡科技/images/kf.jpg) no-repeat center center;
+}
+.ls2 li:nth-child(2){
+    background: url(../作业/超凡科技/images/dh.jpg) no-repeat center center;
+}
+.ls2 li:nth-child(3){
+    background: url(../作业/超凡科技/images/wx.jpg) no-repeat center center;
+}
+.ls2 li:nth-child(4){
+    background: url(../作业/超凡科技/images/jt.jpg) no-repeat center center;
+}
+.ls2 li:nth-child(1):hover{
+    background: url(../作业/超凡科技/images/kf1.jpg) no-repeat #33a9e4 center center;
+}
+.ls2 li:nth-child(2):hover{
+    background: url(../作业/超凡科技/images/dh1.jpg) no-repeat #33a9e4 center center;
+}
+.ls2 li:nth-child(3):hover{
+    background: url(../作业/超凡科技/images/wx1.jpg) no-repeat #33a9e4 center center;
+}
+.ls2 li:nth-child(4):hover{
+    background: url(../作业/超凡科技/images/jt1.jpg) no-repeat #33a9e4 center center;
+}

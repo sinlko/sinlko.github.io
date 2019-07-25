@@ -1,0 +1,45 @@
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+.box{
+    width: 1000px;
+    height: 472px;
+    margin: 50px auto;
+}
+dl{
+    float: left;
+    height: 237px;
+    width: 199px;
+    border-bottom: 1px solid #4d4d4d;
+    border-right: 1px solid #4d4d4d;
+}
+
+dl dt{
+    height: 165px;
+    border-bottom: 1px solid #4d4d4d;
+    text-align: center;
+}
+dl dt img{
+    vertical-align: middle;
+}
+dl dt span{
+    vertical-align: middle;
+    display: inline-block;
+    width: 0;
+    height: 100%;
+}
+dl dd h2{
+    width: 199px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #646464;
+    line-height: 12px;
+    padding:0 0 0 18px;
+}
+dl dd p{
+    width: 199px;
+    line-height: 11px;
+    font-size: 11px;
+    color: #e33942;
+    padding: 0 0 0 18px;
+}

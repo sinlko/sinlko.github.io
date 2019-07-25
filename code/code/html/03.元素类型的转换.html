@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        a {
+            /* 行内元素不可以设置宽高，想要设置宽高，就需要使用元素；类型的转换，把行内元素转换为块级元素
+
+             */
+            width: 100px;
+            height: 200px;
+            border: 1px solid red;
+            display: block;
+        }
+
+        ul li {
+            display: inline-block;
+            width: 100px;
+            /* padding: 100px; */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        元素类型的转换：
+        属性：display
+        属性值：18个
+        （1）block---将行内元素转换为块级元素，转换之后拥有块级元素的特点（独占一整行，可以设置宽高的特点），是大部分块级元素的默认值，li的默认值list-item
+
+        （2）inline----将块级元素转换为行内元素，转换之后用行内元素的特点（不独占一整行，不可以设置宽高），是大部分行内元素的默认值，其中置换元素的默认值为inline-block
+
+        （3）inline-block---将元素转换为行内块，转换之后用行内元素不独占一整行 和 块级元素可以设置宽高的特点,盒子模型的所有属性都是有效果的
+        
+        （4）none---隐藏元素
+
+
+        问题一、display的 inline取值  和 inline-block取值 的区别？
+        （1）inline把元素转换为行内元素，不独占一整行，不可以设置宽高，盒子模型的margiin-top|margin-bottom|padding-top|padding-bottom没有效果
+
+        （2）inline-block 把元素转换为行内块，转换之后不独占一整行，可以设置宽高，盒子模型的所有属性都有效果
+        共同点：不独占一整行
+     -->
+    <a href="https://www.baidu.com">去百度</a>
+    <span>问问</span>
+    <ul>
+        <li>首页1</li>
+        <li>首页2</li>
+        <li>首页3</li>
+        <li>首页4</li>
+    </ul>
+
+</body>
+
+</html>
