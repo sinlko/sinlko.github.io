@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;}
+.box{width: 1350px;height: 800px; background: #086c8c;
+    overflow: hidden;margin: auto;}
+.box h1{font-size: 46px;line-height: 46px;text-align: 
+    center;color: #fff;margin-top: 42px;}
+.box .pp{font-size: 18px;line-height: 18px;text-align: 
+    center;color: #fff;margin-top: 26px;}
+.box .list{width: 1140px;height: 530px;margin: auto;margin-top:56px; }
+.box .list .l,.r,.z,.x,.c,.v{width: 550px;height: 167px;float: left;}
+.box .list .l,.z,.c{margin-right: 40px;}
+.box .list .l,.aa{background: url(../images/超凡科技11_03.jpg) 
+    no-repeat;}
+.box .list .qq ,.ww,.ee,.rr,.tt,.yy{width: 380px;height: 100%; float: 
+    right; background: #fff;} 
+.box .list .h3{font-size: 16px;color: #000;line-height: 16px;
+    padding: 28px 0 0 20px;}
+.box .list .p1{font-size: 12px;line-height: 20px;padding: 15px 34px 0 20px;
+     color: #777777;}
+.box .list .p2 span:nth-child(1){float: left;font-size:10px;color:
+    #ccd5e2;line-height:10px;padding:17px 0 0 20px; }
+.box .list .p2 span:nth-child(2){float: right;font-size:10px;color:
+    #ccd5e2;line-height:10px;padding:17px 34px 0 20px; }
+           
+.box .list .r,.ss{background: url(../images/超凡科技2_03.jpg) 
+    no-repeat;}
+.box .list .z,.dd{background: url(../images/超凡科技3_03.jpg) 
+    no-repeat;}
+.box .list .x,.ff{background: url(../images/超凡科技4_03.jpg) 
+    no-repeat;}
+.box .list .c,.gg{background: url(../images/超凡科技5_03.jpg) 
+    no-repeat;}
+.box .list .v,.hh{background: url(../images/超凡科技6_05.jpg) 
+    no-repeat;}

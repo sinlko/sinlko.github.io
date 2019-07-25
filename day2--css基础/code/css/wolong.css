@@ -1,0 +1,32 @@
+*{margin: 0;padding: 0}
+#wolong{width: 999px;height: 1499;
+        margin: 0 auto}
+#wolong .header{height: 100px;}
+#wolong .nav{height: 59px;background: #282828}
+#wolong .banner{height: 464px;background: url(../images/images/banner_02.jpg)}
+#wolong .main1{height: 243px;background: #ffffff}
+#wolong .main2{height: 303px;background: green}
+#wolong .main3{height: 250px;background: #e5e5e5}
+#wolong .main4{height: 80px;background: yellow}
+/* header */
+#wolong .header .logo{width: 265px;height: 100px;float: left;}
+#wolong .header .logo img{padding:42px 0 0 11px}
+#wolong .header .aa{width: 246px;height: 100px;float: right;}
+#wolong .header .aa form{width:227px;height: 28px;}
+#wolong .header .aa .text{width:202px;height: 26px; border: 1px solid #e6e6e6;
+         float: left;background: #f1f1f1; 
+         color: #8d8d8d }
+#wolong .header .btn{width:27px;height: 26px; background:#646464} 
+#wolong .header .btn{background: url(../images/fangdajing_03.jpg) no-repeat 
+        center;border: 0;}
+/*nav */
+.nav .nav-cont{height: 60px;}
+.nav .nav-cont li{list-style: none; float: left;width: 120px;height: 60px;border-right: 1px solid
+       #494949;text-align: center; line-height: 60px;font-size: 12px}
+.nav .nav-cont li a{color: #fbfbfb;text-decoration: none}
+/* main1 */
+.main1 .main1-left{width: 500px;height: 243px;background: purple;float: left;}
+.main1 .main1-left h1{color: #141414;left: 22px;top: 36px;}
+.main1 .main1-left li{color: #919191;left: 22px;}
+.main1 .main1-center{width:240px;height: 243px;background: grey;float: left;}
+.main1 .main1-right{width: 259px;height: 243px;background:red;float: right;}

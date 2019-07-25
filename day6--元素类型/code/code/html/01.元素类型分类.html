@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        .box {
+            height: 100px;
+            width: 300px;
+            background: pink;
+        }
+
+        .box1 {
+            height: 50px;
+            background: green;
+        }
+
+        p p {
+            color: red;
+        }
+
+        span {
+            width: 100px;
+            border: 1px solid red;
+            /* margin: 100px; */
+            padding: 100px;
+        }
+
+        /* li {
+            padding: 100px;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- 
+        元素类型分类：
+            1、块级元素
+                （1）块级元素默认占据一整行，宽度默认 等于 父元素的宽度
+                （2）块级元素不会呈现并列现象，排列方式为：自上而下
+                （3）块级元素可以设置宽高
+                （4）块级元素可以作为 所有行内元素 和 部分块级元素 的容器
+                注意：p标签不能包含 所有的块级元素
+                
+                块级元素：
+                div --------最常用的块级元素 dl  ------ 和dt-dd 搭配使用的块级元素  form - ------ 交互表单
+                h1 -h6- --- 标题            hr - ----- 水平分隔线,                ol ---------- 有序列表, p - -------- 段落
+                ul - ------ 无序列表        li -------- 列表项,                   fieldset ----- 表单字段集,
+                colgroup-col-------- 表单列分组元素                               table-tr --------  表格及行-单元格
+
+            2、行内元素
+                （1）行内元素不独占一整行，行内元素排列方式：从左到右排列
+                （2）行内元素不可以设置宽高
+                （3）行内元素也遵循盒子模型，但是padding-top，padding-bottom,margin-top,margin-bottom没有任何效果
+
+                行内元素：
+                a -------超链接（锚点）  br --------换行 em------- 强调,倾斜  img ----- 图片 ，根据属性src=””来显示在页面上的内  label----表单的提示信息  span ----- 常用内联容器，定义文本内区块,strong--------------- 粗体强调
+                sub -------下标 , sup ----- 上标,textarea - 多行文本输,select------- 项目选择 根据子元素option 来显示页面上内容
+                b --------- 粗体(不推荐),i --------------- 斜体,input--------- 输入框  根据value=””来显示在页面上的内容
+     -->
+    <div class="box">
+        <div class="box1"></div>
+        <div>dcdsvc</div>
+    </div>
+
+    <p>
+
+        <span>sdvcdfbvdfbdg</span>
+        <span>aaaaaa</span>
+        <a href="">端茶倒水</a>
+        <img src="../images/01.png" alt="">
+    </p>
+    <ul>
+        <li>swdsf1</li>
+        <li>swdsf2</li>
+        <li>swdsf3</li>
+        <li>swdsf4</li>
+    </ul>
+
+</body>
+
+</html>

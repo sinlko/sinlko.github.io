@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        span {
+            width: 200px;
+            height: 100px;
+            border: 1px solid red;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        图片既是行内元素 但是又可以设置宽高，为什么呢？
+        
+        置换元素：浏览器根据元素的属性来显示具体内容，这种元素我们就叫做置换元素
+        img  元素根据 src属性 表示显示内容，input 根据value属性来表示显示的内容
+        置换元素：input ，img ，textarea，select
+        既不独占一整行，也可以设置宽高
+
+        非置换元素：除了置换元素，其他都是非置换元素
+     -->
+    <img src="../images/01.png" alt="">
+    <input type="text" value="123">
+    <span>123</span>
+
+</body>
+
+</html>

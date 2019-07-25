@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+
+.box{width: 1500px; height: 600px;margin: auto;
+    overflow: hidden;}
+
+.box h2{text-align: center;font-size: 32px;
+    line-height: 32px;margin-top: 82px;}
+.box .p1{ text-align: center;font-size: 20px;
+    color: #808080;line-height: 20px;margin-top: 20px;}
+.box .main{width: 1100px;height: 300px;margin: auto;margin-top: 96px;}
+.box .main div{float: left;width: 258px;height: 302px;margin-right: 
+    22px;}
+.box .main img{display: block;margin-bottom:25px; }
+.box .main .ti{font-size: 20px;color: #636363;line-height:
+     20px;text-align: center;}
+.box .main .pp{font-size: 12px;line-height: 20px;color: #9c9c9c;
+     margin-top: 24px;padding: 0 16px 0 12px;}
+
+
+
+

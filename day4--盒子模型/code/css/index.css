@@ -1,0 +1,133 @@
+@charset "utf-8";
+/*字符编码格式*/
+/*css reset*/
+*{margin: 0;padding: 0;}
+/*
+      通配符*表示选中网页中的所有标签
+ */
+body{font-size: 16px;font-family: "微软雅黑";}
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0}
+ul,ol,li{list-style: none;}
+b,strong{font-weight: normal;}
+i,em{font-style: normal;}
+a,u{text-decoration: none;}
+h1,h2,h3,h4,h5,h6,{font-size: 16px;font-weight: normal;}
+input {outline: none;}
+img{display: block;}
+
+#top,.nav-cont,#banner,#news,#case,.link-cont{width: 1000px;margin: 0 auto;}
+/*top*/
+   /*margin 0 auto    作用：让当前元素在父元素中左右居中*/
+#top{height: 100px;}
+#top h1{width: 256px;height: 79px;float: left;padding: 21px 0 0 21px;}
+#top form{width: 247px;height: 61px;float: right;padding-top: 39px;}
+#top form input{border: 0;}
+#top .text{width: 195px;height: 26px;border: 1px solid #e5e5e5;background: 
+       #f1f1f1;color: #989898;float: left;
+      border: 1px solid #e5e5e5;border-right: 0;}
+#top .btn{width: 30px;height: 28px;border: 1px solid #e5e5e5;background: 
+       #f1f1f1 url(../img/images/btn_03.jpg) 
+      no-repeat center;float: left;border: 1px solid #e5e5e5;border-left: 0;}
+      /*给input的按钮添加边框时，边框宽度侵占原有的宽高*/
+
+/*nav*/
+    /*当元素的width属性不设置或者设置100%时，当前元素的宽就是父元素的宽*/
+#nav {height: 58px;background: #323232;margin: 0 auto;}
+.nav-cont{/*这1000像素即为设计图中导航条的宽*/;height: 58px;}
+.nav-cont li{float: left;width: 119px;height: 58px;border-right: 1px solid #494949;
+       text-align: center;line-height:58px;
+        font-size: 12px;}
+.nav-cont li a{color: #e9e9e9;}
+.nav-cont .border0{border: 0;}
+.nav-cont .marl{margin-left: 27px;}
+/*,
+    导航条的步骤
+    1.网页的主导航条一般情况下用标签ul来写
+    2.结构嵌套<li><a href="#"></a><li>
+    3.首先让li进行浮动，并且更改li的大小
+    4.设置a里面的样式
+    注：现阶段导航存在的问题：超链接区域影响用户体验
+ */
+/*banner*/
+#banner{height: 465px;}
+/*news*/
+#news{height: 269px;}
+.news-l{width: 478px;height: 269px;float: left;padding-left: 22px;}
+.news-l h2{font-size: 18px;color: #414550;line-height: 18px;padding-top: 35px;}
+/*
+    新闻列表的步骤
+    1.先给li添加高度
+    2.如果列表后边有时间的情况下，给a和时间的标签（span）添加浮动
+    3.调整文本的样式（字体、字号、文本颜色）
+    4.以背景的形式添加列表符号并且控制列表符号的位置
+    5.控制文本的位置  line-height
+*/
+.news-list{margin-top: 23px;}
+.news-list li{height: 25px;width: 438px;background : url(../img/images/listbg_03.jpg) 
+      no-repeat left center; font-size: 12px;line-height: 25px;padding-left: 9px;}
+.news-list li a{float:left;color: #5a5a5a;overflow: hidden;width: 296px/*文本能显示给客户看到的长度*/;
+      white-space: nowrap;text-overflow: ellipsis /*显示不出来的长文字变省略号显示*/;}
+/*
+   要想实现单行文本的溢出省略号显示：
+   1.强制文本在一行内显示：white-space:nowrap
+   2.让溢出的文本隐藏：overflow:hidden
+   3.省略号显示:text-overflow:ellipsis
+   4.当前元素必须有宽度限制！！ 
+     注：只有单行文本才能设置文本溢出
+*/
+.news-list li span{float: right;color: #9e9e9e;}
+.news-c{width: 197px;height: 240px;background: #f1f1f1;float: left;border-left: 1px solid #fff;
+      padding: 0 23px 0 20px;}
+.news-c h2{font-size: 18px;color: #3e454f;line-height:18px;padding-top: 36px;}
+.news-c .text1{font-size: 12px;color: #595959;line-height: 25px;margin: 33px 0 15px;}
+.news-c .text2{font-size: 12px;color: #9e9e9e;line-height: 24px;}
+.news-r{width: 180px;height: 240px;background: #fbfbfb url(../img/images/bg1_03.jpg) no-repeat 
+       142px/*图片距离左侧*/ 136px/*图片距离上边*/;float: left;padding: 0 55px 0 24px ;}
+.news-r h2{font-size: 18px;color: #232323;line-height:18px;padding-top: 36px;}
+.news-r p{font-size: 12px;color: #626262;line-height:24px;margin: 27px 0 56px;}
+/*case*/
+#case{height: 275px;}
+#case h2{font-size: 18px;color: #3f4551;line-height: 18px/*控制文本的高*/;
+        padding-left:22px;}
+.case-box{height: 220px;margin-top: 18px;}
+.case-box dl{width: 210px;float: left;margin: 0 20px 0;}
+.case-box dd{font-size: 12px;color: #565656;line-height: 25px;margin-top: 12px;}
+
+/*friendlink*/
+#friendlink{height: 250px;background: #e5e5e5;}
+.link-cont{height: 250px;}
+.link-cont #l{width: 500px;height: 250px;float: left;}
+.link-cont #l #l-top{width: 500px;height:57px;}
+.link-cont #l #l-top h2{font-size: 15px;color: #626262;line-height: 15px;padding: 31px 0 0 32px;}
+.link-cont #l #l-center{width: 453px;height:20px;border-top: 1px solid #c1c1c1;
+       margin-left: 20px;}
+.link-cont #l #l-down{width: 500px;height: 145px;}
+#l #l-down #down1{width: 176px;height: 145px;float: left;}
+#l #l-down #down2{width: 192px;height: 145px;float: left;}
+#l #l-down #down3{width: 132px;height: 145px;float: left;}
+#l-down #down1 ul{margin-left: 20px;}
+#l-down #down1 li{height: 24px;width: 139px;background: url(../img/images/listbg1_03.jpg)
+       no-repeat left center;font-size: 11px;line-height :24px;padding-left: 8px;} 
+#l-down #down1 li a{float:left;color: #606060;}           
+#l-down #down2 li{height: 24px;width: 180px;background: url(../img/images/listbg1_03.jpg)
+       no-repeat left center;font-size: 11px;line-height :24px;padding-left: 8px;}
+#l-down #down2 li a{float:left;color: #606060;}   
+#l-down #down3 li{height: 24px;width: 118px;background: url(../img/images/listbg1_03.jpg)
+       no-repeat left center;font-size: 11px;line-height :24px;padding-left: 8px;}
+#l-down #down3 li a{float:left;color: #606060;}  
+.link-cont #c{width: 200px;height: 250px;float: left;} 
+.link-cont #c #c-top{width: 200px;height:57px;}
+.link-cont #c #c-top h2{font-size: 15px;color: #626262;line-height: 15px;padding: 31px 0 0 34px;}
+.link-cont #c #c-center{width: 155px;height:20px;border-top: 1px solid #c1c1c1;margin-left: 20px;}
+.link-cont #c #case1{width: 200px;height: 145px;}
+#c #case1 ul{margin-left: 20px;}
+#c #case1 li{height: 24px;width: 139px;background: url(../img/images/listbg1_03.jpg)
+       no-repeat left center;font-size: 11px;line-height :24px;padding-left: 8px;} 
+#c #case1 li a{float:left;color: #606060;} 
+.link-cont #r{width: 300px;height: 250px;float: left;} 
+.link-cont #r #r-top{width: 300px;height:57px;}
+.link-cont #r #r-top h2{font-size: 15px;color: #626262;line-height: 15px;padding: 30px 0 0 36px;}
+.link-cont #r #r-center{width: 258px;height:18px;border-top: 1px solid #c1c1c1;margin-left: 20px;}
+#r #r-down{width:300px;height:145px;}
+#r-down #case2{width: 188px;height: 145px;margin: 0 auto;}
+#r-down #case2{background: url(../img/images/map_03.jpg)  no-repeat ;}

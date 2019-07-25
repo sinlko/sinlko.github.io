@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        ul,
+        li {
+            list-style: none;
+        }
+
+        /* 找到.box 下面所有的li元素 */
+        .box li {
+            width: 158px;
+            height: 58px;
+            border: 1px solid #ccc;
+            float: left;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-right: 10px;
+        }
+
+        .box .list1 {
+            background-image: url(../images/list1.png);
+            /* background-repeat: no-repeat; */
+            /* background-position: center center; */
+        }
+
+        .box .list2 {
+            background-image: url(../images/list2.png);
+            /* background-repeat: no-repeat;
+            background-position: center center; */
+        }
+
+        .box .list3 {
+            background-image: url(../images/list3.png);
+            /* background-repeat: no-repeat;
+            background-position: center center; */
+        }
+
+        .box .list4 {
+            background-image: url(../images/list4.png);
+            /* background-repeat: no-repeat;
+            background-position: center center; */
+        }
+
+        .box .list5 {
+            background-image: url(../images/list5.png);
+            /* background-repeat: no-repeat;
+            background-position: center center; */
+        }
+
+        .box .list6 {
+            background-image: url(../images/list6.png);
+            /* background-repeat: no-repeat;
+            background-position: center center; */
+        }
+
+        .box .list7 {
+            background-image: url(../images/list7.png);
+            /* background-repeat: no-repeat;
+            background-position: center center; */
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="box">
+        <!-- 
+            li*7[class="list$"]{$}
+            []表示给元素添加属性
+            {}表示给元素添加内容
+         -->
+        <li class="list1"></li>
+        <li class="list2"></li>
+        <li class="list3"></li>
+        <li class="list4"></li>
+        <li class="list5"></li>
+        <li class="list6"></li>
+        <li class="list7"></li>
+    </ul>
+
+</body>
+
+</html>

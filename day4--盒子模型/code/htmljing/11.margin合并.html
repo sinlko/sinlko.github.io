@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        /* 
+            想要实现粉色 盒子 和 灰色 盒子 之间有100px的距离
+            1、给粉色盒子设置margin-bottom
+            2、给灰色盒子设置margin-top
+
+            问题：当两个元素垂直排列的时候
+            给上面元素设置margin-bottom，给下面的盒子设置margin-top的时候，两个盒子的margin不会相加，而是取两个值较大的累给元素添加距离
+
+            解决：
+            给两个盒子中其中一个盒子设置display：inline-block
+        
+         */
+
+        /* 这两个盒子的距离为70px */
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background: pink;
+            margin-bottom: 70px;
+        }
+
+        .box2 {
+            width: 300px;
+            height: 300px;
+            background: #ccc;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+</body>
+
+</html>

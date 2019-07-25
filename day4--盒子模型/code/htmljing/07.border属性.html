@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <!-- 
+        1、边框样式（实线，虚线...）
+            border-style:solid(实线) | dashed(虚线) | dotted(点线) | double(双实线) | none（没有）
+            变宽样式必填，否则不出现效果
+            
+        2、边框宽度
+            border-width:数值 + px，默认为 3px
+
+        3、边框颜色
+            border-color:颜色  默认为黑色
+        4、简写：border：样式 颜色 宽度;
+
+        5、单独给某一边添加边框
+            border-left|right|top|bottom
+     -->
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            /* border: 10px solid red; */
+            border-style: solid;
+            /* border-width: 10px; */
+            /* border-color: red; */
+            border-left: 10px solid red;
+            border-right: 10px solid green;
+            border-top: 10px solid pink;
+            border-bottom: 10px solid yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+
+#wolong ,#av ,.nav-cont,#main1,#main2,#main3,#main4,#footer{width: 1000px;
+     margin: auto;}
+/* header */
+#wolong{height: 100px;}
+#wolong h1{
+     height: 100px;
+     width: 266px;
+     float: left;
+     background: url(../images/wolong/images/logo_03.jpg) no-repeat;
+     background-position: 20px center;
+     text-indent: -999px;
+
+}
+#wolong form{float: right;width: 224px;height: 26px;padding-top:38px;}
+#wolong form input{border: 0;}
+#wolong .put1{width: 195px;height: 26px;border: 1px solid#e5e5e5;
+     color: #828282;border-right: 0;float: left; background: #f1f1f1;}
+#wolong .put2 {width: 25px;height: 28px;border: 1px solid#e5e5e5;
+     color: #828282;float: left; border-left: 0;background: 
+     url(../images/images/fangdajing_03.jpg) no-repeat center;} 
+      
+/* nav */
+#nav{height: 60px;background:
+     #333333;}
+#nav .nav-cont{height: 60px;background: #333333 }
+#nav .nav-cont li{float: left;width: 120px;height: 60px;
+    font-size: 12px;line-height: 60px;text-align: center;border-right:
+     1px solid #4a4a4a;list-style: none;}
+#nav .nav-cont li a{color: #ffffff;}
+#nav .nav-cont li a:hover{color: orange;font-size: 16px;}
+#nav .nav-cont li:nth-last-child(1){border-right: 0;} 
+
+
+
+/* main1 */
+#main1{ background: url(../images/images/main1_02.jpg) no-repeat;}
+/*main2  */
+#main2{height: 240px;}
+.m1,.m2,.m3{height: 240px;float: left;}
+#main2 .m1{width: 500px;}
+#main2 h2{font-size: 18px;line-height: 18px;padding: 36px 0 0 22px;}
+#main2 .m1 .s1{
+     float: left;
+     width: 300px;
+     padding: 24px 0 0 20px;
+}
+#main2 .m1 .s1 li{
+     list-style:none;
+     background: url(../images/wolong/images/dian_03.jpg)no-repeat;
+     background-position: left center;
+}     
+#main2 .m1 .s2{
+     float: right;
+     padding: 25px 28px 0 0;
+}
+#main2 .m1 .s2 li{
+     font-size: 10px;
+     color: #949494;
+     line-height: 24px;
+     list-style: none;
+}
+#main2 .m1 .s1 li a{
+     font-size: 12px;
+     color: #858585;
+     line-height: 24px;
+     padding-left: 12px;}         
+#main2 .m1 .s1 li a:hover{
+     color: #000;
+     font-size: 15px;
+}
+#main2 .m2{width: 240px;background: #f1f1f1;}
+#main2 .m2 h3{font-size: 12px;line-height: 26px;color: #535353;padding: 
+     31px 90px 0 26px;}
+#main2 .m2 .p1{font-size: 12px;line-height: 24px;color: #999999;padding: 
+     20px 18px 0 26px;}
+
+#main2 .m3{width: 260px;}
+#main2 .m3 .p2{font-size: 12px;line-height: 24px;color: #646464;padding: 
+     20px 54px 0 26px;}
+#main2 .m3 .tu1{padding:54px 0 0 24px;float: left; }
+#main2 .m3 .tu2{padding-right: 16px;float: right; }
+
+/* main3 */
+#main3{height: 308px;}
+#main3 h2{font-size: 18px;line-height: 18px;padding: 30px 0 0 22px;}
+#main3 .list{height: 244px;padding-top: 20px;} 
+#main3 .list dl{width:210px;margin: 0 20px 0;float: left;}
+#main3 .list dd{font-size: 12px;line-height: 24px;color: #595959;}
+
+/* main4 */
+#main4{height: 250px;background: #e5e5e5;}
+.w1,.w2,.w3{float: left;height: 250px;}
+#main4 .tip1{padding-left: 2px;}
+#main4 li{list-style-position: inside;list-style-image:
+      url(../images/images/tip_03.jpg);}
+#main4 .w1{width: 500px;}
+#main4 h4{font-size: 16px;line-height: 16px;padding:
+     30px 0 0 32px;color: #8f8f8f;}
+.boxl,.boxc,.boxb{height: 192px;border-top:
+      1px solid #c2c2c2;margin:10px 0 0 20px;}
+.boxl-1,.boxl-2,.boxl-3,.boxc{float: left;height: 192px;
+     padding-top: 14px;}
+#main4 a{font-size:12px;line-height: 24px;padding-top: 
+     14px;color: #626262;}
+#main4 a:hover{color:orange;font-size: 16px;}     
+#main4 .w1 .boxl .boxl-1{width: 156px;}
+#main4 .w1 .boxl .boxl-2{width: 192px;}
+#main4 .w1 .boxl .boxl-3{width: 102px;}
+
+#main4 .w2{width: 200px;}
+#main4 .w2 .boxc{width: 152px;}
+#main4 .w3{width: 300px;}
+#main4 .w3 .boxb{width: 258px;background:
+     url(../images/images/map_03.jpg) no-repeat center;}
+
+/* footer */
+#footer{height: 80px;}
+.boxt,.boxy{float: left;height: 80px;}
+#footer .boxt{width: 350px;}
+#footer .boxt p{height: 10px;padding: 24px 0 0 22px;}
+#footer .boxt a{font-size: 10px;color: #8e8e8e;}
+#footer .boxt a:hover{color: #000;font-size: 15px;}
+#footer .boxt b{color: #888888;font-size: 10px;padding: 0 6px;}
+
+#footer .boxy{width: 648px;}
+#footer .boxy .c1{padding-top: 26px;}
+#footer .boxy .c2{font-size: 10px;color: #8e8e8e;line-height: 10px;}

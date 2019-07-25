@@ -1,0 +1,37 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+.box{width: 1348px;height:450px;background: #252525;margin: auto;
+    overflow: hidden;}
+.box h1{font-size: 46px;line-height: 46px;color: #ffffff;
+    text-align: center;margin-top: 40px;}
+.box .pp{font-size: 24px;line-height: 24px;text-align: center;
+    color: #dddddd;margin-top: 20px;}
+.box .main{width: 1184px;height: 148px;text-align: center;
+    margin:0 auto; }
+.box .main .dd{float: left;width:288px;height: 148px; 
+    margin-top:52px;padding-left: 8px;}
+.box .main .dd img{float: left;display: block;}
+.box .main .dd h3{width: 196px;text-align: left; font-size: 16px;
+    line-height: 16px;color: #cbcbcb;}
+.box .main .dd .p2{width: 288px;text-align: left; color: #ffffff;
+    font-size: 16px;line-height: 16px;margin-top: 10px;}
+.box .footer{height: 82px;width: 100%;}
+.box .footer ul{height: 82px;}
+ul{display: table;margin-left: auto;margin-right: auto;}
+li{float:left;*float:none;*display:inline;*zoom:1;}
+.p3,.p4 ,.p5,.p6{ height: 80px;width:198px;border: 
+     1px solid #333333;margin-right: 28px;color: #aaaaaa;
+     font-size: 16px;line-height: 80px;padding-left: 70px; } 
+.box .footer ul li .p3{background: url(../练习1图片/foot_c1.png)no-repeat;}
+.box .footer ul li .p4{background: url(../练习1图片/foot_c2.png)no-repeat;}
+.box .footer ul li .p5{background: url(../练习1图片/foot_c3.png)no-repeat;}
+.box .footer ul li .p6{background: url(../练习1图片/foot_c4.png)no-repeat;}
+
+   
+
+
+
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        ul,
+        li {
+            list-style: none;
+        }
+
+        /* 
+            元素在页面中实际所占宽高：
+                宽度 = 左右的border + 左右的padding + content（width）
+                高度 = 上下的border +上下的padding + content（height）
+
+                300 = 20 + 100 + 300px
+
+                如果给元素设置padding和border时候，一定在元素的宽高上面减去添加的padding 和 border值
+        
+         */
+        .box {
+            width: 180px;
+            height: 180px;
+            background: red;
+            padding: 50px;
+            border: 10px solid pink;
+        }
+
+        ul {
+            width: 300px;
+            height: 200px;
+            border: 1px solid red;
+            padding: 0;
+        }
+
+        ul li {
+            width: 100px;
+            height: 200px;
+            float: left;
+        }
+
+        ul .list1 {
+            padding-left: 10px;
+            padding-top: 10px;
+            width: 90px;
+            height: 190px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <ul>
+        <li style="background: green" class="list1">1</li>
+        <li style="background: pink">2</li>
+        <li style="background: #58a">3</li>
+    </ul>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .header {
+            width: 1000px;
+            height: 62px;
+            background: #000;
+            color: #fff;
+        }
+
+        .header h1 {
+            float: left;
+            text-indent: -999px;
+            width: 207px;
+            height: 62px;
+            background-image: url(../images/qf_logo.jpg);
+        }
+
+        .header ul {
+            float: right;
+            /* background: orange; */
+
+        }
+
+        .header ul li {
+            float: left;
+            height: 62px;
+            /* line-height: 62px; 实现单行文本垂直居中显示 */
+            line-height: 62px;
+            /* 每个导航的宽度不一样，不能设置固定高度，宽度由文字内容 + 左右padding撑   开，padding一般给父元素设置，文字的父元素为a标签,所以padding值给a标签添加*/
+            /* width: 100px; */
+            text-align: center;
+        }
+
+        .header ul a {
+            color: #fff;
+            padding: 0px 15px;
+            height: 62px;
+            display: block;
+        }
+
+        .header li:hover {
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>千锋互联</h1>
+        <ul>
+            <li>
+                <a href="">课程</a>
+            </li>
+            <li>
+                <a href="">走进千锋</a>
+            </li>
+            <li>
+                <a href="">好程序员</a>
+            </li>
+            <li>
+                <a href="">双选会</a>
+            </li>
+            <li>
+                <a href="">关于我们</a>
+            </li>
+            <li>
+                <a href="">千锋教育</a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

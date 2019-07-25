@@ -1,0 +1,199 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+#shiyu{width: 1326px;margin: 0 auto;}
+.header,.nav,.main1,.main2,.main3,.main4,.main5,.main6,
+    .main7,.main8,.footer{width: 1326px;}
+/* header */
+#shiyu .header{height: 82px;}
+#shiyu .header h1{padding: 18px 0 0 78px;}
+#shiyu .header ul{float: right;margin: -40px 92px 0 0;}
+#shiyu .header ul li{float: left;height: 42px;}
+#shiyu .header ul li a{margin: 0 20px;font-size: 18px;
+    line-height: 30px;color: #000;}
+#shiyu .header li:hover{border-bottom: #f00 1px solid;}
+#shiyu .header a:hover{color: red;}
+ 
+
+/* nav */
+#shiyu .nav{height: 700px;}
+
+/* main1 */
+#shiyu .main1{height: 210px;background: #1b252e;}
+#shiyu .main1 h2{font-size: 24px;color: #fff;padding: 
+    54px 0 0 74px;}
+#shiyu .main1 .m1{width: 770px; font-size: 16px;line-height: 32px;
+    color: #fff;padding: 20px 0 0 74px;}
+#shiyu .main1 span{float: right;margin: -80px 178px 0 0;width: 
+    168px;height: 56px;background: #fff;
+    border: 1px ; border-radius: 50%}  
+#shiyu .main1 .a1{font-size: 14px;line-height: 56px;color: #000;
+    padding-left: 52px;}
+#shiyu .main1 span:hover{background: burlywood;color: orange;}
+
+/* main2 */
+#shiyu .main2{height: 598px;}
+#shiyu .main2 .hh{width:1168px;height: 184px;border-bottom: 
+    1px solid #dedede;margin: auto;}
+#shiyu .main2 .hh h2{font-size: 38px;padding-top: 90px;
+    font-weight: bold;line-height: 38px;
+    text-align: center;}
+#shiyu .main2 .m2 ul{height: 350px; display: table;margin-left: auto;
+    margin-right: auto;padding-top: 54px;}
+#shiyu .main2 .m2 ul li{float:left;*float: left;*display: inline;
+     *zoom: 1;margin: 0 52px;}
+#shiyu .main2 .m2 ul li:nth-child(1){background: url(../周末作业/石宇网络/s1.jpg) no-repeat;
+    background-position: center top;}
+#shiyu .main2 .m2 ul li:nth-child(2){background: url(../周末作业/石宇网络/s2.jpg) no-repeat;
+    background-position: center top;}
+#shiyu .main2 .m2 ul li:nth-child(3){background: url(../周末作业/石宇网络/s3.jpg) no-repeat;
+    background-position: center top;}
+#shiyu .main2 .m2 ul li:nth-child(4){background: url(../周末作业/石宇网络/s4.jpg) no-repeat;
+    background-position: center top;}   
+#shiyu .main2 .m2 h3{height: 24px; text-align: center;font-size: 24px;line-height: 24px;
+    color: #333333; padding-top: 162px;}
+#shiyu .main2 .m2 p{text-align: center;font-size: 14px;color: #999999;
+    padding-top: 14px;}
+
+/* main3 */
+#shiyu .main3{height: 716px;background: #ebebeb;}
+#shiyu .main3 h2{font-size: 32px;line-height: 32px;padding-top:70px;
+    text-align: center;}
+#shiyu .main3 p{font-size: 16px;line-height: 16px;color: #999999;
+    padding-top:20px;text-align: center;}  
+/* #shiyu .main3 .m3 {width:1326px;height: 468px; padding-top: 40px;padding-left}    */
+ #shiyu .main3 .m3 ul{display: table;margin-left: 
+    auto;margin-right: auto;margin-top: 44px;}
+      
+#shiyu .main3 .m3 ul li{float:left;margin: 10px 13px;;width: 256px;
+    *float: left;*display: inline;*zoom: 1;margin: 10px 13px;
+    height: 214px;background: #fff;}
+#shiyu .main3 .m3 ul li img{padding: 8px 8px 0 8px;} 
+#shiyu .main3 .m3 ul li p{text-align: center;} 
+#shiyu .main3 .m3 ul li a{color: #999999;font-size: 14px;}    
+
+/* main4 */
+#shiyu .main4{height: 428px;overflow: hidden; background: 
+    url(../周末作业/石宇网络/brand-bg.jpg) no-repeat;}
+#shiyu .main4 .m4{width: 756px;height: 144px;
+    margin-left:286px;margin-top: 132px;}
+#shiyu .main4 .m4 .img1{float: left;}
+#shiyu .main4 .m4 .img2{float: right;}
+#shiyu .main4 .m4 p{width: 600px;height: 34px;font-size: 34px;padding:35px 0 0 70px; 
+    color: #fff;display: inline-block;vertical-align: middle;}
+
+/* main5 */
+#shiyu .main5{height: 596px;}
+#shiyu .main5 .zz{width:1168px;height: 184px;border-bottom: 
+    1px solid #dedede;margin: auto;}
+#shiyu .main5 .zz h2{font-size: 32px;padding-top: 80px;
+    font-weight: bold;line-height: 38px;
+    text-align: center;}
+#shiyu .main5 .zz .p4{ text-align: center;font-size: 16px;color: #999999;
+    padding-top: 20px;}   
+#shiyu .main5 .m5 ul{height: 350px; display: table;margin-left: auto;
+    margin-right: auto;padding-top: 54px;}
+#shiyu .main5 .m5 ul li{float:left;*float: left;*display: inline;
+     *zoom: 1;margin: 0 100px;}
+#shiyu .main5 .m5 ul li:nth-child(1){background: url(../周末作业/石宇网络/i1.png) no-repeat;
+    background-position: center top;}
+#shiyu .main5 .m5 ul li:nth-child(2){background: url(../周末作业/石宇网络/i2.png) no-repeat;
+    background-position: center top;}
+#shiyu .main5 .m5 ul li:nth-child(3){background: url(../周末作业/石宇网络/i3.png) no-repeat;
+    background-position: center top;}
+#shiyu .main5 .m5 ul li:nth-child(4){background: url(../周末作业/石宇网络/i4.png) no-repeat;
+    background-position: center top;}   
+#shiyu .main5 .m5 h3{height: 24px;width: 120px; text-align: center;font-size: 
+    24px;line-height: 24px;
+    color: #f13a3a; padding-top: 140px;font-weight: bolder;}
+#shiyu .main5 .m5 p{text-align: center;font-size: 14px;color: #999999;
+    padding-top: 14px;}
+
+/* main6 */
+#shiyu .main6{height: 536px;background: #f6fafd;}
+#shiyu .main6 img{float: left;}
+#shiyu .main6 .m6{width: 662px;height: 536px;float: right;}
+#shiyu .main6 .m6 h3{font-size: 36px;line-height: 36px;color: #444444;padding:
+     146px 0 0 94px;}
+#shiyu .main6 .m6 ul{padding: 32px 0 0 94px;}   
+#shiyu .main6 .m6 ul li{font-size: 16px;line-height: 32px;color: #7d7d7d;}
+#shiyu .main6 .m6 p{width: 156px;height: 50px;border: 1px solid #7d7d7d;
+     background: #fefefe;margin: 90px 0 0 94px;line-height: 50px;
+     text-align: center;}
+
+/* main7 */
+#shiyu .main7{height: 708px;}
+#shiyu .main7 h2{font-size: 32px;line-height: 32px;text-align: center;
+    padding-top: 86px;}
+#shiyu .main7 .p7{font-size: 16px;line-height: 16px;color: #acacac;
+    text-align: center;padding-top: 46px;}  
+#shiyu .main7 .p8{font-size: 22px;line-height: 22px;color: #333333;
+    text-align: center;padding-top: 20px;} 
+#shiyu .main7 ul{display: table;margin-left: auto;
+    margin-right: auto;padding-top: 76px;}
+#shiyu .main7 ul li{width: 350px;height: 90px; float:left;*float: left;
+    *display: inline;*zoom: 1;margin: 0 27px;border: 1px solid #cacaca;} 
+#shiyu .main7 ul li:nth-child(1){background: url(../shiyu/images/qie_03.jpg) 
+    no-repeat;background-position: 50px 30px;}
+#shiyu .main7 ul li:nth-child(2){background: url(../shiyu/images/weibo_03.jpg) 
+    no-repeat;background-position: 50px 30px;} 
+#shiyu .main7 ul li:nth-child(3){background: url(../shiyu/images/weixin_03.jpg) 
+    no-repeat;background-position: 50px 30px;} 
+#shiyu .main7 ul li h3{font-size: 16px;line-height: 16px;color:#6a6a6a ;
+    padding: 30px 0 0 120px;} 
+#shiyu .main7 ul li p{font-size: 10px;line-height: 10px;color:#6a6a6a ;
+    padding: 12px 0 0 120px;} 
+#shiyu .main7 .m9{width: 360px;height: 172px;margin:
+     70px 0 0 490px;background: url(../shiyu/images/wei_03.jpg) 
+     no-repeat;background-position: center top;}
+#shiyu .main7 .m9 .b1{width: 100px;height: 80px;border: 5px solid #000;
+    float: left; margin-top: 76px;border-right: 0;}
+#shiyu .main7 .m9 h4{font-size: 12px;color: #666666;padding: 160px  0 0 125px;}   
+#shiyu .main7 .m9 .b2{width: 100px;height: 80px;border: 5px solid #000;
+    float: right;margin-top: -100px; border-left: 0;}
+
+/* main8 */
+#shuyu .main8{height: 516px;background: #ebebeb;border-bottom:
+     4px solid #f00;}
+#shiyu .main8 ul{display: table;margin-left: auto;margin-right: auto;
+    padding-top: 98px;}
+#shiyu .main8 ul li{float: left;*float: left;*display: inline;*zoom: 1;
+    width:240px;height: 290px; margin: 0 15px;}  
+#shiyu .main8 ul li h3{font-size: 16px;line-height: 34px;
+    text-align: center;padding-top:  
+    19px ;color: #333333;}
+#shiyu .main8 ul li p{font-size: 14px;line-height: 14px;
+    color: #979797;}
+
+/* footer */
+#shiyu .footer{height: 262px;background: #1b252e;}
+#shiyu .footer .f1{height: 138px;}
+#shiyu .footer .f1 ul{width: 1180px;height: 138px;display: table;margin-left: auto;
+    margin-right: auto;border-bottom: 1px solid #666e78;}
+#shiyu .footer .f1 ul li{float: left;*float: left;*display: inline;*zoom: 1;width:221px;
+    height: 108px;margin: 28px 33px 0;}
+#shiyu .footer .f1 ul li:nth-child(1){margin-left: 62px; background: url(../周末作业/石宇网络/f-1.png) no-repeat left center;} 
+#shiyu .footer .f1 ul li:nth-child(2){background: url(../周末作业/石宇网络/f-2.png) no-repeat left center;}
+#shiyu .footer .f1 ul li:nth-child(3){background: url(../周末作业/石宇网络/f-3.png) no-repeat left center;} 
+#shiyu .footer .f1 ul li:nth-child(4){background: url(../周末作业/石宇网络/f-4.png) no-repeat left center;}  
+#shiyu .footer .f1 ul li a{font-size: 12px;line-height: 108px;text-align: center;
+    padding-left:  38px;color: #8a929c;}    
+#shiyu .footer .f2{height: 26px;padding-top: 28px;}
+#shiyu .footer .f2 ul{height: 20px;display: table;margin-left: auto;
+    margin-right: auto;}
+#shiyu .footer .f2 ul li{float: left;*float: left;*display: inline;
+    *zoom: 1;margin:0 12px;}
+#shiyu .footer .f2 ul li a{font-size: 12px;line-height: 12px;color: 
+    #8b939d;}
+#shiyu .footer .f3{font-size: 12px;line-height: 12px;text-align: center;
+     color: #8b939d;padding-top: 12px;}
+#shiyu .footer .f4{font-size: 12px;line-height: 12px;text-align: center;
+    padding-top: 12px;}
+#shiyu .footer .f4 a{color: #8b939d;} 
+
+
+
+
+
+    

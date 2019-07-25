@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background: #ccc;
+            text-align: center;
+            /* border: 1px solid red; */
+            /* float: left; */
+            overflow: hidden;
+            /* padding-top: 100px */
+        }
+
+        .box h2 {
+            /* 
+                问题：如果给大盒子的第一个子元素添加一个上的外边距，会错误的把这个外边距给父元素，导致父元素跟着一起往下移动
+                解决：
+                    1、给父元素添加border
+                    2、给父元素或者子元素设置 float
+                    3、给父元素设置overflow：hidden
+
+            
+             */
+            margin-top: 100px;
+            /* float: left; */
+        }
+
+        .box h3 {
+            /* margin-top: 20px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h2>移动互联网</h2>
+        <h3>jbfcsdjncsdc</h3>
+    </div>
+
+</body>
+
+</html>

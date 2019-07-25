@@ -1,0 +1,77 @@
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+
+#box{background: #d6dae2;height: 1610px;width: 780px;margin: auto;}
+.b1,.b2,.b3{width: 100%;margin-top: 20px;}
+/* b1 */
+#box .b1{height: 354px;background:#f2f1ef;}
+/* b1 bb1 */
+#box .b1 .bb1{height: 60px;width: 100%;}
+#box  .bb1 img{margin: 20px 0 0 20px;vertical-align: bottom;}
+#box  .bb1 .oo{font-size: 20px;line-height: 20px;float: left;
+     color: #000;display: table-cell; vertical-align: bottom;}     
+#box  .bb1 .pp{font-size: 8px;line-height: 8px;float: right;
+    color: #888888;margin: 32px 20px 0 0;} 
+/* b1 q1 */
+#box .b1 .q1{width: 740px;height: 294px;
+     margin: auto;}
+ #box .b1  .q1 .q2{width: 226px;height: 280px;background: 
+    url(../images/mahuateng_03.jpg) no-repeat;
+    float: left;margin-right: 31px;}
+    #box .b1  .q1 .yy{padding: 180px 16px 0 10px;font-size: 12px;
+        line-height: 12px;color: #000} 
+    #box .b1  .q1 .uu{line-height: 20px;font-size: 12px;padding: 
+        7px 16px 0 10px;color: #888888;}
+#box .b1  .q1 .q3{width: 226px;height: 280px;background:
+     url(../images/David_03.jpg) no-repeat;
+    float: left;margin-right: 31px;}
+#box .b1  .q1 .q4{width: 226px;height: 280px;background:
+     url(../images/feilipu_03.jpg) no-repeat;
+    float: left;}
+ 
+/* b2 */
+#box .b2{height: 500px;background: #f2f1ef;}
+/* b2 ll */
+#box .b2 .ll{width: 740px;height: 420px;padding:20px}
+#box .b2 .ll .j{width: 100%;height: 128px;background: #ffffff;
+    margin-bottom:16px; }
+#box .b2 .ll .j .gg{margin: 20px 0 0 20px;float: left;}
+#box .b2 .ll .j .kk{width: 634px;height: 128px;
+    float: right;} 
+#box .b2 .ll .j .kk .jj{font-size: 16px;line-height: 16px;
+        color: #000;padding: 20px 144px 0 20px;}
+#box .b2 .ll .j .kk .l {width: 634px;height: 12px;margin-top: 20px;}       
+#box .b2 .ll .j .kk .l .hh{padding-left: 20px;display: block;float: left;}   
+#box .b2 .ll .j .kk .l h5{font-size: 10px;line-height: 10px;
+     color: #888888;float: left;} 
+#box .b2 .ll .j .kk .k{font-size: 12px;line-height: 22px;padding:
+    7px 44px 0 20px;}      
+   
+/* b3 */
+#box .b3{height: 700px; background: #f2f1ef;}
+#box .b3 .fang{width: 100%;height: 40px;}
+#box .b3 .fang .cc{margin:20px 0 0 20px;vertical-align: bottom;}
+/* #box .b3 .fang .k2{font-size: 20px;line-height: 20px;float: left;
+    color: #000;display: table-cell; vertical-align: bottom;} */
+#box .b3 .fang .k3{font-size: 8px;line-height: 8px;float: right;
+    color: #888888;margin: 32px 20px 0 0;}   
+#box .b3 .f{width: 710px;height: 580px;
+    margin-left: 20px;}
+#box .b3 .f .d{width: 100%;height: 200px;border-bottom:
+     1px solid #e4e3e2;}
+#box .b3 .bb1 .f .mo{margin-top: 20px ;float: left;}
+#box .b3 .f .d .kk{width: 484px;height: 200px;
+    float: right;}
+#box .b3 .f .d .kk .k4{font-size: 16px;line-height: 16px;
+    color: #000;padding: 20px 0 0 20px;}
+#box .b3 .f .d .kk .k5{width: 100%;height: 12px;margin-top: 20px;} 
+#box .b3 .f .d .kk .k5 .k8{padding-left: 20px;display: block;float: left;}
+#box .b3 .f .d .kk .k5 .k7{font-size: 10px;line-height: 10px;
+    color: #888888;float: left;} 
+#box .b3 .f .d .kk .k6{font-size: 12px;line-height: 22px;padding:
+    30px 0 0 20px;}
+  
+
+
+    

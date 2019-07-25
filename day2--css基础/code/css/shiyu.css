@@ -1,0 +1,31 @@
+*{margin: 0;padding: 0}
+#shiyu{width: 1323px;height: 5348px;margin: 0 auto}
+#shiyu .header{width: 1323px;height: 83px; }
+#shiyu .main1{width: 1323px;height: 700px;background: 
+    url(../images/tu_02.jpg)} 
+#shiyu .main2{width: 1323px;height: 208px;background: 
+    #1b252e}
+ #shiyu .main3{width: 1323px;height: 600px;background: 
+    yellow}
+#shiyu .main4{width: 1323px;height: 715px;background: 
+    #ebebeb}
+#shiyu .main5{width: 1323px;height: 430px;background: 
+    url(../images/tu1_02.jpg)}
+#shiyu .main6{width: 1323px;height: 595px;background: 
+    #ffffff}
+#shiyu .main7{width: 1323px;height: 536px;background: 
+    #f0f}
+#shiyu .main8{width: 1323px;height: 706px;background: 
+    #ffffff}
+#shiyu .main9{width: 1323px;height: 514px;background: 
+    #ebebeb}
+#shiyu .footer{width: 1323px;height: 262px;background: 
+    #1b252e}
+/* headrer */
+#shiyu .header .aa{width: 300px;height: 83px;float: left;}
+#shiyu .header .aa img{padding-left: 78px;padding-top: 19px}
+#shiyu .header .ss{width: 1023px;height: 83px;background:
+     saddlebrown ;float: right}
+
+
+
