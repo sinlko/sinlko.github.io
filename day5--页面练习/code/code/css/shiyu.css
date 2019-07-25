@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#shiyu {
+    /* width: 1326px; */
+    width: 100%;
+    height: 5348px;
+    background: pink;
+    margin: auto;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/qianfeng.css">
+</head>
+
+<body>
+    <!-- 
+        页面的结构写法：
+            1、页面由一个最外层的盒子（div）包含，并且给设个盒子设置一个id名 和 宽度为100%；
+
+            2、在盒子里面根据页面从上到下分结构（按照色块 或者 内容），一个结构用一个div表示，并且给他们添加class名
+
+            3、一个页面中有主要内容区域，主要内容区域需要用一个盒子（div）包括起来，并且有个class名为content,设置主要内容区域的宽度，height：100%，表示为父元素的高度，然后使用margin：auto 把主要内容区域放在页面的中间位置
+            
+            4、页面中所有的内容结构都写在class名为content元素中
+     -->
+    <div id="qianfeng">
+        <div class="header">
+            <div class="content">
+                <h1>千锋互联</h1>
+                <ul>
+                    <li><a href="">首页</a></li>
+                    <li><a href="">课程</a></li>
+                    <li><a href="">走进千锋</a></li>
+                    <li><a href="">关于我们</a></li>
+                    <li><a href="">好程序员</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <!-- 不能使用img插入图片，会把元素容器撑开为图片的大小，导致出现水平滚动条 -->
+            <!-- <img src="../images/qf-banner.png" alt=""> -->
+        </div>
+        <div class="main1">
+            <div class="content">
+                sskdnvds
+            </div>
+        </div>
+        <div class="main2">
+            <div class="content"></div>
+        </div>
+        <div class="main3">
+            <div class="content"></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>

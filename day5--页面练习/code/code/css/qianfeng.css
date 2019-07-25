@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#qianfeng {
+    /* 
+        页面的最外层盒子的宽度用100%去表示
+    */
+    /* width: 1910px; */
+    width: 100%;
+    height: 1400px;
+    background: #ccc;
+}
+
+/* 因为每一个块里面的content标签的样式都是一样的，统一写，表示选择到#qianfeng下面所有class名为content的元素 */
+#qianfeng .content {
+    width: 1000px;
+    height: 100%;
+    background: pink;
+    margin: auto;
+}
+
+/*  ------header 区域开始----------*/
+/* 页面样式一般使用包含选择器来写 */
+#qianfeng .header {
+    height: 62px;
+    width: 100%;
+    background: #232323;
+    color: #fff;
+}
+
+/* -------header 区域结束-------- */
+
+
+
+/* ------banner 区域开始--------- */
+
+#qianfeng .banner {
+    /* 
+        用img插入图片 和 background-image引入图片的区别：
+        img插入图片，图片在页面中会占据位置，会把元素的宽高撑开
+        background-image 引入图片的话，设置的容器必须有宽高，否则图片不会出现
+        在利用background-position：center center ;把图片的主要内容显示在容器的中心位置
+
+    */
+    width: 100%;
+    height: 420px;
+    background-image: url(../images/qf-banner.png);
+    background-position: center center;
+}
+
+
+/* ------banner 区域结束-------- */
+
+
+/* ------main1 区域开始---------- */
+#qianfeng .main1 {
+    height: 350px;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+
+/* ------main1 区域结束---------- */
+
+
+/* ------main2 区域开始---------- */
+#qianfeng .main2 {
+    height: 310px;
+    width: 100%;
+    background: #fff;
+}
+
+/* ------main2 区域结束---------- */
+
+/* ------main3 区域开始---------- */
+#qianfeng .main3 {
+    height: 214px;
+    width: 100%;
+    background: #222222;
+}
+
+/* ------main3 区域结束---------- */
+
+
+/* ------fioter 区域开始---------- */
+#qianfeng .footer {
+    height: 45px;
+    width: 100%;
+    background: #101010;
+}
+
+/* ------footer 区域结束---------- */

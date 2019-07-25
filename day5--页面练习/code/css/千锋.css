@@ -1,0 +1,285 @@
+*{margin: 0;padding:0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+#qianfeng{width: 100%;}
+.nav,.main1,.main2,.main3,.footer{width: 100%;}
+/* nav */
+#qianfeng .nav{
+    height: 60px;
+    background: #232323;
+    margin: auto;
+}
+#qianfeng .nav h1{
+    width: 160px;
+    height: 40px;
+    background: url(../images/logo_03.jpg) no-repeat;
+    float: left;
+    margin: 10px 0 0 300px;
+    text-indent: -999px;
+}
+#qianfeng .nav ul{
+    float: right;
+    padding-right: 200px;       
+}
+#qianfeng .nav ul li{
+    line-height: 60px;
+    float: left;
+}
+#qianfeng .nav ul li a{
+    font-size: 14px;
+    padding: 0 10px;
+    color: #ffffff;
+    display: block;
+}
+#qianfeng .nav li:hover{
+    background: orange;
+}
+/* main1 */
+#qianfeng .main1{
+    height: 420px;
+    background: url(../images/main1_02.jpg) no-repeat;
+}
+
+/* main2 */
+#qianfeng .main2{
+    height: 350px;
+    background: #f5f5f5;
+}
+#qianfeng .main2 ul{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    height: 290px;
+    padding-top: 36px;
+}
+#qianfeng .main2 ul li{
+    width: 250px;
+    height: 290px;
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    border-right: 1px solid #dde6f0;
+}
+#qianfeng .main2 ul li h2{
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 128px;
+    text-align: center;
+    color: #252e3b;
+}
+#qianfeng .main2 ul li .p1{
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #546c7d;
+    padding-top: 20px;
+}
+#qianfeng .main2 ul li .p2{
+    font-size: 14px;
+    line-height: 14px;
+    color: #a3c8de;
+    padding-top: 8px;
+    text-align: center;
+}
+#qianfeng .main2 ul li:nth-child(1){
+    background: url(../images/mian21_03.jpg) no-repeat;
+    background-position: center top;
+}
+#qianfeng .main2 ul li:nth-child(2){
+    background: url(../images/main22_03.jpg) no-repeat;
+    background-position: center top;
+}
+#qianfeng .main2 ul li:nth-child(3){
+    background: url(../images/main23_03.jpg) no-repeat;
+    background-position: center top;
+}
+#qianfeng .main2 ul li:nth-child(4){
+    background: url(../images/main24_03.jpg) no-repeat;
+    background-position: center top;
+    border-right: 0;
+}
+
+
+/* main3 */
+#qianfeng  .main3{
+    height: 310px;
+}
+#qianfeng .main3 .main3-l{
+    width: 800px;
+    height: 310px;
+    background: url(../images/main31_03.jpg) no-repeat;
+    background-position: 160px center;
+    float: left;
+}
+#qianfeng .main3 .main3-l h2{
+    font-size: 18px;
+    line-height: 18px;
+    color: #222222;
+    padding: 46px 0 0 476px;
+}
+#qianfeng .main3 .main3-l h3{
+    width: 320px;
+    font-size: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #444444;
+    padding: 18px 0 0 476px;
+
+}
+#qianfeng .main3 .main3-l p{
+    text-indent: 2em;
+    width: 320px;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    display:-webkit-box;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999999;
+    padding: 16px 0 0 476px;
+}
+#qianfeng .main3 .main3-l ul{
+    width: 320px;
+    height: 99px;
+    margin:9px 0 0 476px; 
+    padding-top: 11px;
+    border-top:2px dotted #cccccc;
+}
+#qianfeng .main3 .main3-l ul li{
+    background: url(../images/jiantou_03.jpg) no-repeat;
+    background-position: left center;
+    height: 26px;
+}
+#qianfeng .main3 .main3-l ul li a{
+    display: block;
+    width: 308px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    line-height: 26px;
+    color: #444444;
+    padding-left: 12px;
+}
+#qianfeng .main3 .main3-r{
+    width: 240px;
+    height: 224px;
+    float: left;
+    border-left: 2px solid #dcdedf;
+    margin-top: 46px;
+    margin-left: 24px;
+}
+#qianfeng .main3 .main3-r h2{
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 16px;   
+}
+#qianfeng .main3 .main3-r img{
+    padding: 18px 0 0 16px;
+}
+#qianfeng .main3 .main3-r h3{
+    font-size: 18px;
+    line-height: 18px;
+    padding:  16px; 
+    color: #666666;  
+}
+#qianfeng .main3 .main3-r ul{
+    width: 240px;
+    padding-left:16px; 
+}
+#qianfeng .main3 .main3-r ul li{
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #666666;
+}
+
+/* footer */
+#qianfeng .footer{
+    height:260px ;
+    background: #222222;
+}
+.footer-l,.footer-c,.footer-r,.copy{
+    float: left;
+}
+
+#qianfeng .footer .footer-l{
+    width:532px;
+    height: 214px;
+    margin-left: 160px;
+}
+#qianfeng .footer .footer-l ul{
+    width: 532px;
+    display: table;
+    margin-left:auto;
+    margin-right: auto;
+}
+#qianfeng .footer .footer-l ul li{
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    height: 122px;
+    margin: 0 20px;
+}
+#qianfeng .footer .footer-l ul li h3{
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    padding-top: 50px;
+}
+#qianfeng .footer .footer-l ul li h3 a{
+    color: #fff;
+}
+
+#qianfeng .footer .footer-l ul li p{
+    font-size: 12px;
+    line-height: 12px;
+    color: #999999;
+    text-align: center;
+    padding-bottom: 12px; 
+}
+
+#qianfeng .footer .footer-c{
+    width: 314px;
+    height: 214px;
+    background:url(../images/map_03.jpg) no-repeat;
+    background-position: center center;
+    border-left: 1px solid #434343;
+    border-right: 1px solid #434343;
+}
+
+#qianfeng .footer .footer-r{
+    width:214px;
+    height: 214px;
+    background: url(../images/weixin_03.jpg) no-repeat;
+    background-position: center center;
+}
+#qianfeng .footer .footer-r .pp{
+    font-size: 12px;
+    display: block;
+    height: 20px;
+    width: 84px;
+    margin-left: 64px;
+    color: #464646;
+    text-align: center;
+}
+
+#qianfeng .footer .copy{
+    width: 100%;
+    height: 42px;
+}
+#qianfeng .footer .copy p{
+    display: block;
+    font-size: 12px;
+    line-height: 42px;
+    text-align: center;
+    color: #999999;
+}
+
+

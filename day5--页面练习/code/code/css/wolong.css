@@ -1,0 +1,227 @@
+#wolong {
+    width: 100%;
+    height: 1500px;
+    background: pink
+}
+
+/* 统一给有主要内容块的容器的样式 */
+#wolong .content {
+    width: 1000px;
+    height: 100%;
+    /* background: yellowgreen; */
+    margin: auto;
+}
+
+/* -----header区域--------- */
+#wolong .header {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}
+
+.header .logo {
+    width: 243px;
+    height: 100%;
+
+    /* background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center; */
+
+    background: url(../images/logo.png) no-repeat center center;
+
+    /* 首行缩进，当值为负数的时候，文字往前移，把文字隐藏掉 */
+    text-indent: -999px;
+
+}
+
+.header .search {
+    margin-top: 39px;
+}
+
+.header .search input {
+    background: #f1f1f1;
+    width: 211px;
+    height: 26px;
+    border: 1px solid #e5e5ee;
+    padding-left: 14px;
+}
+
+
+/* ------nav区域------ */
+#wolong .nav {
+    width: 100%;
+    height: 56px;
+    background: #323232;
+}
+
+/* 子元素浮动，不能撑开父元素的高度，导致父元素的高度为0 ，子元素浮动，一定要给父元素设置高度*/
+.nav ul {
+    height: 100%;
+}
+
+.nav ul li {
+    width: 119px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    text-align: center;
+    /* 行高的取值不能为百分数，只能是固定的数值 + px */
+    line-height: 56px;
+    font-size: 12px;
+    /* color: #fff; */
+}
+
+/* a标签的字体颜色只能给a标签本身设置 */
+.nav ul li a {
+    color: #fff;
+    /* a标签是行内元素，不能设置宽高，向阿姨设置宽高，就是用display：block，把a标签转化为块级元素 */
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* 鼠标滑过li,改变li的背景颜色 */
+.nav ul li:hover {
+    background: orange;
+}
+
+/* -----banner区域-------- */
+#wolong .banner {
+    width: 100%;
+    height: 466px;
+    background-image: url(../images/wl-banner.png);
+    background-position: center center;
+}
+
+/* -----main1区域------- */
+#wolong .main1 {
+    width: 100%;
+    height: 240px;
+    background: #fbfbfb;
+}
+
+/* 统一给main1下面的.new-title添加样式 */
+.main1 .new-title {
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 36px;
+    color: #585858;
+}
+
+.main1 .main1-left {
+    width: 500px;
+    height: 100%;
+    /* background: pink; */
+}
+
+.main1 .main1-left .new-content {
+    margin-top: 30px;
+    /* list-style-type: square; */
+}
+
+.main1 .main1-left .new-content li {
+    height: 12px;
+    margin-bottom: 13px;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+
+.main1 .main1-left .new-content span {
+    font-size: 12px;
+    /* 行高的值不会改变 行内元素的高度 */
+
+    /* 
+        给元素设置浮动之后，元素将不会有块级元素 或 行内元素 之分
+        如果行内元素有浮动，那么行高也可以改变元素的高度
+    */
+    line-height: 12px;
+}
+
+.main1 .main1-left .new-content .span1 {
+    margin-left: 18px;
+    color: #4d4d4d;
+    width: 340px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main1 .main1-left .new-content .span2 {
+    margin-right: 18px;
+    color: #a6a6a6;
+}
+
+
+.main1 .main1-center {
+    width: 216px;
+    height: 100%;
+    background: #f1f1f1;
+    padding-left: 24px;
+}
+
+.main1 .main1-center h3 {
+    /* 保留换行符号，但还是不保留空格符号 */
+    white-space: pre-line;
+    font-size: 12px;
+    line-height: 26px;
+    color: #555555;
+    margin-top: 32px;
+}
+
+.main1 .main1-center p {
+    color: #929292;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 14px;
+
+    /* 多行出现省略号 */
+    width: 195px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.main1 .main1-right {
+    width: 236px;
+    height: 100%;
+    padding-left: 24px;
+    background: #fbfbfb url(../images/list_07.png) no-repeat right 120px;
+}
+
+.main1 .main1-right span {
+    width: 66px;
+    height: 19px;
+    display: block;
+    font-size: 7px;
+    text-align: center;
+    line-height: 19px;
+    color: #fff;
+    background: #acacac;
+    /* 把小写的英文单词变为大写的 */
+    text-transform: uppercase;
+
+}
+
+
+/* ----main2区域------- */
+#wolong .main2 {
+    width: 100%;
+    height: 306px;
+    background: #f5f5f5;
+}
+
+/* -----main3区域----- */
+#wolong .main3 {
+    width: 100%;
+    height: 250px;
+    background: #e5e5e5;
+}
+
+/* ------footer区域------- */
+#wolong .footer {
+    width: 100%;
+    height: 81px;
+    background: #fff;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 10px solid red;
+            /* 
+               一、 容器溢出设置
+                什么叫容器溢出：子元素在容器范围之外显示的部分叫做容器溢出
+
+                属性：overflow
+                属性值：
+                    hidden（溢出隐藏，把超出的部分隐藏掉）
+                    scroll (不管内容超不超出都会出现滚动条)
+                    auto（内容超出了就出现滚动条，否则就不出现）
+                    visible（默认值，不管内容超不超出都显示，不隐藏也不出现滚动条）
+            */
+            overflow: visible;
+        }
+
+        .box .box1 {
+            width: 200px;
+            height: 200px;
+            background: pink;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1"></div>
+    </div>
+
+</body>
+
+</html>

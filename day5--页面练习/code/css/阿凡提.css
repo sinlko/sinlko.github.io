@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+
+#afanti,.header,.banner,.main1,.main2,.footer{
+    width: 100%;
+}
+
+/* header */
+#afanti .header{
+    height: 80px;
+    background: url(../images/阿凡提/logo_03.jpg) no-repeat;
+    background-position: 200px center;
+    margin: auto;
+    overflow: hidden;
+}
+#afanti .header h1{
+    text-indent: -999px;
+    width: 50px;
+    height: 80px; 
+    float: left;
+}
+#afanti .header ul{
+    display: table;
+    height: 34px;
+    width: 660px;
+    margin: 26px auto;
+}
+#afanti .header ul li{
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    margin: 0 25px;
+    height: 34px;
+}
+#afanti .header ul li a{
+    font-size: 16px;
+    line-height: 34px;
+    color: #323335;
+
+}
+#afanti .header ul li a:hover{
+    color: orange;
+    font-weight: bold;
+}
+#afanti .header ul li:hover{
+    border-bottom:  2px solid orange;
+}

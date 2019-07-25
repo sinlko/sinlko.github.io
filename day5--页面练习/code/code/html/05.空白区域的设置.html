@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        div {
+            /* width: 200px; */
+            border: 1px solid red;
+            /* 二、
+                空白（换行 或者 空格）区域的设置
+                white-space：
+                取值：
+                    normal（默认值，正常，空白区域会被忽略，只保留一个空白）
+                    pre(空白区域会被保留，但是不换行)
+                    pre-line(换行符保留，空格不保留，正常换行)
+                    pre-wrap(空白空间保留，也正常换行)
+                    nowrap(强制文本在同一行显示)
+                
+                三、文本溢出设置
+                text-overflow
+                    clip(当文本超出容器把多余的文本裁剪) 
+                    ellipsis（当文本超出容器出现省略好）
+                一定要配合white-space: nowrap;，overflow: hidden;width：数值 + px
+
+                单行文本出现省略号的条件;
+                    1、容器必须由宽度，width：
+                    2、给容器设置溢出隐藏；overflow：hidden；
+                    3、强制文本在统一显示；white-space：nowrap;
+                    4、文本溢出出现省略号；text-overflow:ellipsis
+
+                多行文本出现省略号的条件：
+                    1、width: 300px;
+                    2、overflow: hidden;
+                    3、text-overflow: ellipsis;
+                    4、display: -webkit-box;
+                    5、-webkit-line-clamp: 3; 表示第三行出现省略号
+                    6、-webkit-box-orient: vertical;
+                
+                注意点：不能给容器设置高度
+            */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        p {
+            width: 300px;
+            border: 1px solid green;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- hdscbv kjsad dus ccd iu sah cu sjg dx jsa -->
+        晚上打开宽度基础会计三从四德会计处理的市场收到从的市场可能的私家车第三方不重复的
+    </div>
+    <p>
+        晚上打开宽度基础会计三从四德会计处理的市场收到从的市场可能的私家车第三方不重复的晚上打开宽度基础会计三从四德会计处理的市场收到从的市场可能的私家车第三方不重复的
+    </p>
+
+</body>
+
+</html>
