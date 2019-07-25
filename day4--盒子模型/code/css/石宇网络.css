@@ -13,7 +13,7 @@ a{text-decoration: none;}
 #shiyu .header ul li a{margin: 0 20px;font-size: 18px;
     line-height: 30px;color: #000;}
 #shiyu .header li:hover{border-bottom: #f00 1px solid;}
-#shiyu .header a:hover{color: red;}
+#shiyu .header li:hover a{color: red;}
  
 
 /* nav */
