@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        .box {
+            width: 800px;
+            height: 600px;
+            border: 1px solid red;
+            margin: 100px auto;
+        }
+
+        .box .left {
+            float: left;
+            width: 200px;
+            height: 100%;
+            background: #ccc;
+        }
+
+        .box .left a {
+            display: block;
+            height: 40px;
+            text-decoration: none;
+            border-bottom: 2px solid red;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .box .right {
+            float: right;
+            width: 600px;
+            height: 100%;
+            /* background: pink; */
+            overflow: hidden;
+        }
+
+        .box .right div {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="left">
+            <a href="#yijieduan">一阶段</a>
+            <a href="#erjieduan">二阶段</a>
+            <a href="#sanjieduan">三阶段</a>
+        </div>
+        <div class="right">
+            <div id="yijieduan">
+                <p>html基础</p>
+                <p>css基础</p>
+                <p>html5基础</p>
+                <p>css3基础</p>
+                <p>移动布局</p>
+            </div>
+            <div id="erjieduan">
+                <p>JavaScript基础</p>
+                <p>jq基础</p>
+                <p>es5基础</p>
+                <p>es6基础</p>
+                <p>后台+数据库+前端整个网站项目</p>
+            </div>
+            <div id="sanjieduan">
+                <p>Vue.js</p>
+                <p>react.js</p>
+                <p>nodejs</p>
+                <p>混合开发</p>
+                <p>小程序</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

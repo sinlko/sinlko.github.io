@@ -1,0 +1,45 @@
+#box {
+    border: 1px solid red;
+}
+
+/* 
+    统一解决高度塌陷,
+    只要子元素有浮动，就给父元素添加class名clearfix
+*/
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0px;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#box .content {
+    width: 1200px;
+    background: pink;
+    margin: auto;
+}
+
+#box .box1 .title-left {
+    height: 84px;
+    line-height: 84px;
+}
+
+#box .box1 .title-right {
+    height: 84px;
+    line-height: 84px;
+}
+
+#box .box1 .list .list1 {
+    width: 570px;
+    height: 160px;
+    background: #f1f1f1;
+    float: left;
+    margin-bottom: 30px;
+}
+
+/* 给 1 3 5 元素添加右边的外边距 */
+#box .box1 .list .list1:nth-child(2n+1) {
+    margin-right: 60px;
+}

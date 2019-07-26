@@ -1,0 +1,504 @@
+*{
+    margin: 0;padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#shouye,.main1,.main2,.main3,.main4,.main5,.main6{
+    width: 100%;
+}
+
+/* main1 */
+
+#shouye .main1{
+    width: 100%;
+    height: 107px;
+}
+#shouye .main1 ul{
+    display: table;
+    width: 1236px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+#shouye .main1 ul li{
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    width: 412px;
+    height:107px ;
+}
+
+.box1,.box2,.box3{
+    width: 412px;
+    height: 62px;
+    margin-top: 21px;
+    border-right: 1px solid #e5e5e5;
+}
+
+#shouye .main1 ul li .box1{
+    background: url(../imges/logos.png) no-repeat ;
+    background-position: 80px 4px;
+}
+
+#shouye .main1 ul li .box2{
+    background: url(../imges/logos.png) no-repeat ;
+    background-position: 66px -70px;
+}
+
+#shouye .main1 ul li .box3{
+    background: url(../imges/logos.png) no-repeat ;
+    background-position: 80px -150px;
+}
+
+#shouye .main1 ul li h3{
+    font-size: 16px "微软雅黑";
+    line-height: 16px;
+    color: #333333;
+    padding-left: 156px;
+    padding-top: 16px;
+}
+
+#shouye .main1 ul li p{
+    font-size: 14px "微软雅黑";
+    padding-top: 9px;
+    line-height: 20px;
+    color: #999999;
+    padding-left: 156px;
+}
+#shouye .main1 ul li:hover{
+    border-bottom: 2px solid #19d96e;
+}
+
+/* main2 */
+
+#shouye .main2{
+    height: 280px;
+}
+#shouye .main2 .bb{
+    width:1236px;
+    height: 18px; 
+    margin-left: 63px;
+    padding-top: 34px;
+}
+.p1,.p2{
+    height: 18px;
+    border-left: 1px solid #23ac38;
+    
+}
+#shouye .main2 .bb .p1{
+    width: 908px; 
+    float: left; 
+}
+#shouye .main2 .bb .p2{
+    width: 324px;
+    float: left;
+}
+
+#shouye .main2 .span1{
+    float: left;
+    padding-left: 8px;
+    font-size: 18px "微软雅黑";
+    color: #23ac38;
+}
+#shouye .main2 .span2{
+    float: right;
+    padding-left: 8px;
+}
+#shouye .main2 .span2 a{
+    font-size: 14px;
+    color: #999999;
+}
+#shouye .main2 a:hover{
+    color: orange;
+}
+#shouye .main2 .list1{
+    width: 898px;
+    height: 206px;
+    margin: 20px 0 0 63px;
+    position: absolute;
+}
+#shouye .main2 .list1 li{
+    height: 206px;
+    width: 289px;
+    border: 1px solid #e5e5e5;
+    margin-right: 12px;
+    float: left;
+}
+#shouye .main2 .list1 li p{
+    padding-top: 16px;
+    font-size: 12px;
+    color: #333333;
+    line-height: 12px;
+    text-align: center;
+}
+#shouye .main2 .list1 li:hover img{
+    opacity: 0.5;
+}
+#shouye .main2 .list1 li:hover p{
+    font-size: 16px;
+    font-weight: bold;
+    color: orange;
+}
+#shouye .main2 .list2{
+    width: 330px;
+    height: 210px;
+}
+#shouye .main2 .list2 li{
+    float: left;
+    width: 108px;
+    height: 103px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    left: 976px;
+    right: 0;
+    top: 20px;
+}
+#shouye .main2 .list2 li .list2-1{
+    font-size: 12px;
+    color: #333333;
+    line-height: 12px;
+    text-align: center;
+    padding-top: 49px;
+}
+#shouye .main2 .list2 li .list2-2{
+    width: 40px;
+    height: 17px;
+    border: 1px solid #e5e5e5;
+    margin: 9px 0 0 33px;
+}
+#shouye .main2 .list2 li .list2-2 a{
+    display: block;
+    height: 17px;
+    width: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+}
+#shouye .main2 .list2 li .list2-2 a:hover{
+    background: rgba(0, 255, 191, 0.425);
+}
+#shouye .main2 .list2 li:nth-child(1){
+    background: url(../imges/datu1.png) no-repeat;
+    background-position: 42px 14px;
+}
+#shouye .main2 .list2 li:nth-child(2){
+    background: url(../imges/datu1.png) no-repeat;
+    background-position: -34px 14px;
+}
+#shouye .main2 .list2 li:nth-child(3){
+    background: url(../imges/datu1.png) no-repeat;
+    background-position: -108px 14px;
+}
+#shouye .main2 .list2 li:nth-child(4){
+    background: url(../imges/datu1.png) no-repeat;
+    background-position: -182px 14px;
+}
+#shouye .main2 .list2 li:nth-child(5){
+    background: url(../imges/datu1.png) no-repeat;
+    background-position: -258px 14px;
+}
+#shouye .main2 .list2 li:nth-child(6){
+    background: url(../imges/datu1.png) no-repeat;
+    background-position: -334px 14px;
+}
+
+/* main3 */
+#shouye .main3{
+    height: 212px;
+}
+#shouye .main3 .p3{
+    width:1236px;
+    height: 18px; 
+    margin-top: 34px;
+    margin-left: 63px;
+    border-left: 1px solid #23ac38; 
+    color: #19d96e;
+    padding-left: 8px;
+}
+#shouye .main3 .list3{
+    height: 142px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+#shouye .main3 .list3 li{
+    float: left;
+    *float: left;
+    *display: inline;
+    *zoom: 1;
+    width: 384px;
+    height: 142px;
+    margin-right: 34px;
+    border: 1px solid #e5e5e5;
+
+}
+#shouye .main3 .list3 li h3{
+    font-size: 16px "微软雅黑";
+    line-height: 16px;
+    color: #333333;
+    padding-left: 145px;
+    margin-top: 33px;
+}
+#shouye .main3 .list3 li p{
+    font-size: 12px "微软雅黑";
+    line-height: 22px;
+    color: #8a8a8a;
+    width: 196px;
+    height: 22px;
+    padding:14px 0 0 145px;
+}
+#shouye .main3 .list3 li:nth-child(1){
+    background: url(../imges/d11.png) no-repeat;
+    background-position: 30px 20px;
+}
+#shouye .main3 .list3 li:nth-child(2){
+    background: url(../imges/d11.png) no-repeat;
+    background-position: -330px 20px;
+}
+#shouye .main3 .list3 li:nth-child(3){
+    background: url(../imges/d11.png) no-repeat;
+    background-position: -690px 20px;
+}
+
+/* main4 */
+#shouye .main4{
+    height: 638px;
+}
+.p4,.p5{
+    height: 18px;
+    border-left: 1px solid #23ac38;
+    float: left;
+    font-size: 18px "微软雅黑";
+    color: #19d96e;
+    padding-left: 8px;
+
+}
+
+#shouye .main4 .p4{
+    width: 630px;
+    margin-left: 63px;
+}
+#shouye .main4 .p5{
+    width: 606px;
+}
+ .mm1,.mm2{
+    width: 607px;
+    height: 565px;
+    float: left;
+    margin-top: 20px;
+}
+#shouye .main4 .mm1{
+    margin-left: 63px;
+    margin-right: 26px;
+}
+#shouye .main4 .mm1 li{
+    float: left;
+    width: 301px;
+    height: 140px;
+    border:1px solid #e5e5e5;
+}
+#shouye .main4 .mm1 li h3{
+    font-size: 17px;
+    line-height: 17px;
+    padding: 43px 0 0 110px;
+    color: #333333;
+}
+#shouye .main4 .mm1 li p{
+    width: 150px;
+    height: 30px;
+    padding: 10px 0 0 110px;
+    color: #333333;
+}
+#shouye .main4 .mm1 li p a{
+    display: block;
+    width: 68px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    float: left;
+    color: #333333;
+
+}
+
+#shouye .main4 .mm1 li .aa{
+    margin-right: 10px;
+}
+#shouye .main4 .mm1 li a:hover{
+    background: orange;
+}
+#shouye .main4 .mm1 li:nth-child(1){
+    background: url(../imges/da.png) no-repeat;
+    background-position: 30px 40px;
+}
+#shouye .main4 .mm1 li:nth-child(2){
+    background: url(../imges/da.png) no-repeat;
+    background-position: -275px 40px;
+}
+#shouye .main4 .mm1 li:nth-child(3){
+    background: url(../imges/da.png) no-repeat;
+    background-position: 30px -105px;
+}
+#shouye .main4 .mm1 li:nth-child(4){
+    background: url(../imges/da.png) no-repeat;
+    background-position: -275px -105px;
+}
+#shouye .main4 .mm1 li:nth-child(5){
+    background: url(../imges/da.png) no-repeat;
+    background-position: 30px -230px;
+}
+#shouye .main4 .mm1 li:nth-child(6){
+    background: url(../imges/da.png) no-repeat;
+    background-position: -275px -230px;
+}
+#shouye .main4 .mm1 li:nth-child(7){
+    background: url(../imges/da.png) no-repeat;
+    background-position: 30px -365px;
+}
+#shouye .main4 .mm1 li:nth-child(8){
+    background: url(../imges/da.png) no-repeat;
+    background-position: -275px -365px;
+}
+#shouye .main4 .mm2 .pic1{
+    display: block;
+    width: 605px;
+    height: 282px;
+    border: 1px solid #e5e5e5;
+    border-bottom: none;
+}
+#shouye .main4 .mm2 ul{
+    width: 605px;
+    height: 280px;
+}
+#shouye .main4 .mm2 ul li{
+    width: 300px;
+    height: 140px;
+    float: left;
+    border: 1px solid #e5e5e5;
+    position: relative;
+}
+#shouye .main4 .mm2 ul li h3{
+    width: 160px;
+    height: 16px;
+    font-size: 16px;
+    margin: 48px 0 0 40px;
+}
+#shouye .main4 .mm2 ul li img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    float: right;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    
+}
+#shouye .main4 .mm2 ul li span{
+    display: block;
+    width: 160px;
+    height: 12px;
+    font-size: 12px;
+    color: #fc6721;
+    margin: 11px 0 0 40px;
+}
+#shouye .main4 .mm2 ul li:hover img{
+    opacity: 0.6;
+}
+/* footer */
+#shouye .footer{
+    height: 170px;
+}
+.ll,.rr{
+    width: 606px;
+    float: left;
+}
+#shouye .footer .ll{
+    margin-right: 25px;
+    margin-left: 63px;
+}
+#shouye .footer .f1{
+    width: 150px;
+    float: left;
+}
+ .f1-1,.f1-2{
+    width:150px; 
+    margin-top: 20px;
+}
+#shouye .footer .f1 .f1-1 li{
+    font-size: 12px;
+    height: 43px;
+    line-height: 43px;
+    padding-left: 72px;
+
+}
+#shouye .footer .f1 .f1-2 li{
+    font-size: 12px;
+    height: 43px;
+    line-height: 43px;
+    padding-left: 72px;
+
+}
+#shouye .footer .f1 .f1-1 li:nth-child(1){
+    background: url(../imges/pp.png) no-repeat;
+    background-position: 30px 10px;
+}
+#shouye .footer .f1 .f1-1 li:nth-child(2){
+    background: url(../imges/pp.png) no-repeat;
+    background-position: 30px -35px;
+}
+
+#shouye .footer .f1 .f1-1 li:nth-child(3){
+    background: url(../imges/pp.png) no-repeat;
+    background-position: 30px -80px;
+}
+
+#shouye .footer .f1 .f1-2 li:nth-child(1){
+    background: url(../imges/pp.png) no-repeat;
+    background-position: 30px -125px;
+}
+
+#shouye .footer .f1 .f1-2 li:nth-child(2){
+    background: url(../imges/pp.png) no-repeat;
+    background-position: 30px -170px;
+}
+
+#shouye .footer .f1 .f1-2 li:nth-child(3){
+    background: url(../imges/pp.png) no-repeat;
+    background-position: 30px -215px;
+}
+
+
+#shouye .footer .f2{
+    width: 450px;
+    float: left;
+}
+#shouye .footer.f2 .ff{
+    height: 43px;
+    width: 410px
+}
+#shouye .footer .f2 .ff li{
+    height: 12px;
+    padding: 0 16px;
+    float: left;
+    border-right: 1px solid #e5e5e5;
+    font-size: 12px;
+    margin-top:  33px
+}
+#shouye .footer .f2 .ff li a{
+    font-size: 12px;
+    color: #333333;
+    display: block;
+    line-height: 12px;
+}
+
+#shouye .footer .f2 .ff li:hover a{
+    color: orange;
+}

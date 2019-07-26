@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>锚点链接</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .box {
+            width: 504px;
+            height: 600px;
+            background: rgb(221, 163, 173);
+            margin: 20px auto;
+        }
+
+
+        .box1 {
+            width: 100px;
+            height: 100%;
+            border: 1px solid #ff0;
+            float: left;
+
+        }
+
+        .box2 {
+            width: 400px;
+            height: 100%;
+            border: 1px solid red;
+            float: right;
+            overflow: hidden;
+
+
+
+        }
+
+        .box1 .list1 li {
+            width: 100%;
+            height: 40px;
+            border: 1px solid blue;
+
+        }
+
+        .box1 .list1 a {
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        #list2,
+        #list3,
+        #list4,
+        #list5 {
+            height: 100%;
+            border: 1px solid orange;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1">
+            <ul class="list1">
+                <li><a href="#list2">咔咔</a></li>
+                <li><a href="#list3">哈哈</a></li>
+                <li><a href="#list4">麻麻</a></li>
+                <li><a href="#list5">滴滴</a></li>
+            </ul>
+        </div>
+        <div class="box2">
+            <ul id="list2">
+                <li>啊啊啊啊啊啊</li>
+                <li>钱钱钱钱钱钱</li>
+                <li>哇哇哇哇哇哇</li>
+                <li>嘎嘎嘎嘎嘎嘎</li>
+                <li>啦啦啦啦啦啦</li>
+                <li>滴滴答答的的</li>
+                <li>啊啦啦啦啦啦</li>
+            </ul>
+            <ul id="list3">
+                <li>laialailai</li>
+                <li>laialailai</li>
+                <li>laialailai</li>
+                <li>laialailai</li>
+                <li>laialailai</li>
+                <li>laialailai</li>
+                <li>laialailai</li>
+            </ul>
+            <ul id="list4">
+                <li>nijsdskdskdsds</li>
+                <li>nijsdskdskdsds</li>
+                <li>nijsdskdskdsds</li>
+                <li>nijsdskdskdsds</li>
+                <li>nijsdskdskdsds</li>
+                <li>nijsdskdskdsds</li>
+                <li>nijsdskdskdsds</li>
+            </ul>
+            <ul id="list5">
+                <li>kcmmmmcmcccf</li>
+                <li>kcmmmmcmcccf</li>
+                <li>kcmmmmcmcccf</li>
+                <li>kcmmmmcmcccf</li>
+                <li>kcmmmmcmcccf</li>
+                <li>kcmmmmcmcccf</li>
+                <li>kcmmmmcmcccf</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

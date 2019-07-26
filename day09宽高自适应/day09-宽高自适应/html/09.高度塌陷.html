@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* 高度自适应：父元素不设置于高度，高度由子元素撑开 */
+        /* 
+            高度塌陷的原因：子元素浮动，父元素没有设置高度
+            解决高度塌陷的方法：
+                1、给浮动元素的父元素设置overflow：hidden(触发一个bfc)
+                缺点：隐藏定位在容器之外的元素
+
+                2、在浮动元素后面添加一个块级元素，并且给这个元素设置以下样式
+                {clear:both;height:0px;overflow:hidden}
+                缺点：多出很多没有内容的标签出来，影响结构
+
+                3、万能清除浮动法（利用伪元素选择器）
+                塌陷元素::after{
+                    content:"";
+                    clear:both;
+                    height:0px;
+                    display:block;
+                    overflow:hidden;
+                    visibility:hidden;
+                }
+         */
+        .box {
+            /* height: 100px; */
+            width: 200px;
+            /* overflow: hidden; */
+        }
+
+        .clearfix::after {
+            content: "";
+            display: block;
+            height: 0px;
+            clear: both;
+            overflow: hidden;
+            visibility: hidden;
+        }
+
+        /* .box p {
+         
+            clear: both;
+            height: 0px;
+            overflow: hidden;
+        } */
+
+        .box .box1 {
+            height: 100px;
+            width: 100px;
+            background: pink;
+            float: left;
+        }
+
+        .box .box2 {
+            height: 100px;
+            width: 100px;
+            background: green;
+            float: left;
+        }
+
+        .list {
+            width: 400px;
+            height: 200px;
+            background: red;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="box clearfix">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+
+        <!-- <div class="box2">box2</div>
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+
+        <div class="box2">box2</div> -->
+        <!-- <p></p> -->
+    </div>
+    <div class="list"></div>
+
+</body>
+
+</html>

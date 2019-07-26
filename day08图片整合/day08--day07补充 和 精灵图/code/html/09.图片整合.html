@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        .nav {
+            width: 1140px;
+            height: 132px;
+            /* background: pink; */
+            margin: 100px auto;
+        }
+
+        .nav li {
+            width: 285px;
+            height: 130px;
+            float: left;
+            border-bottom: 2px solid #e6e6e6;
+            text-align: center;
+
+        }
+
+        .nav li span {
+            width: 80px;
+            height: 80px;
+            display: inline-block;
+            background: url(../images/exp_xtb.png);
+            /* margin: auto; */
+        }
+
+        .nav .list2 span {
+            background-position: 0px -80px;
+        }
+
+        .nav .list3 span {
+            background-position: 0px -160px;
+        }
+
+        .nav .list4 span {
+            background-position: 0px -240px;
+        }
+
+        .nav .list1:hover {
+            border-color: blue;
+        }
+
+        .nav .list1:hover span {
+            background-position: -80px 0px;
+        }
+
+        .nav .list2:hover span {
+            background-position: -80px -80px;
+        }
+
+        .nav .list3:hover span {
+            background-position: -80px -160px;
+        }
+
+        .nav .list4:hover span {
+            background-position: -80px -240px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        图片整合的原理:
+        将多张背景图放在一起成为一整背景图，然后使用background-position移动背景的位置关系 来相应显示我们需要的图片
+
+        整合图片的优点：
+        1、减少文件数量，站点的体积减小
+        2、减小服务器的请求次数，提高用户体验
+
+        图片整合的缺点：
+        1、在合成图片时候比较麻烦
+        2、不容易后期维护
+
+        图片整合的核心属性：background-position
+
+     -->
+    <ul class="nav">
+        <li class="list1">
+            <span></span>
+            <p>专业化流程</p>
+        </li>
+        <li class="list2">
+            <span></span>
+            <p>专业化流程</p>
+        </li>
+        <li class="list3">
+            <span></span>
+            <p>专业化流程</p>
+        </li>
+        <li class="list4">
+            <span></span>
+            <p>专业化流程</p>
+        </li>
+    </ul>
+
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav1 {
+            height: 40px;
+            background: #000;
+            width: 400px;
+            margin: 100px auto;
+            /* 想要实现nav2的宽度 跟nav1的宽度一样，把nav1当做nav2的参照物 */
+            position: relative;
+        }
+
+        .nav1 li {
+            float: left;
+            width: 99px;
+            height: 40px;
+            border-right: 1px solid #ccc;
+            line-height: 40px;
+        }
+
+        .nav1 li a {
+            display: block;
+            font-size: 12px;
+            color: #fff;
+            text-align: center;
+        }
+
+        .nav1 .nav2 {
+            /* 
+                绝对定位的父元素为 他的参照物
+             */
+            position: absolute;
+            /*  
+                left: 0px;
+                right: 0px;
+                把nav2的宽度拉伸开至nav1的宽度
+             */
+            left: 0px;
+            /* right: 0px; */
+            width: 100%;
+            height: 100%;
+            background: orange;
+            display: none;
+        }
+
+        .nav1 .nav2 li {
+            border-right: none;
+        }
+
+        .nav1 li:hover {
+            background: orange;
+
+        }
+
+        .nav1 li:hover .nav2 {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav1">
+        <li>
+            <a href="">一级导航111</a>
+            <ul class="nav2">
+                <li><a href="">二级导航111</a></li>
+                <li><a href="">二级导航111</a></li>
+                <li><a href="">二级导航111</a></li>
+                <li><a href="">二级导航111</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">一级导航222</a>
+            <ul class="nav2">
+                <li><a href="">二级导航222</a></li>
+                <li><a href="">二级导航222</a></li>
+                <li><a href="">二级导航222</a></li>
+                <li><a href="">二级导航222</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">一级导航333</a>
+            <ul class="nav2">
+                <li><a href="">二级导航333</a></li>
+                <li><a href="">二级导航333</a></li>
+                <li><a href="">二级导航333</a></li>
+                <li><a href="">二级导航333</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">一级导航444</a>
+            <ul class="nav2">
+                <li><a href="">二级导航444</a></li>
+                <li><a href="">二级导航444</a></li>
+                <li><a href="">二级导航444</a></li>
+                <li><a href="">二级导航444</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+
+</html>

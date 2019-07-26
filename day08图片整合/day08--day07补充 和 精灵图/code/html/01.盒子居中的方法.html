@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <!-- 
+        实现一个小盒子在一个大盒子中居中（水平垂直）的显示方法：
+         <div class="box">
+            <div class="box1"></div>
+        </div>
+        1、利用display：inline-block方式去实现,给小盒子添加一个兄弟元素.box2
+            .box{
+                text-align:center; // 实现盒子水平居中
+            }
+            .box1{
+                display:inline-block;
+                vertical-align:middle;
+            }
+            .box2{
+                display:inline-block;
+                vertical-align:middle;
+                height:100px;
+                width:0px;
+            }
+        2、利用定位(子绝父相) 和 位移
+            .box{
+                position:relative;
+            }
+            .box1{
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+            }
+        3、利用定位(子绝父相) 和 margin值
+        .box{
+            position:relative;
+        }
+        .box1{
+            position:absolute;
+            top:0px;
+            right:0px;
+            left:0px;
+            bottom:0px;
+            margin:auto;
+        }
+
+        4、利用弹性盒模型实现（display：flex）
+        .box{
+            display:flex;
+            justify-content:center;
+            align-item:center;
+        }
+     -->
+    <style>
+        /* .box {
+            width: 400px;
+            height: 300px;
+            border: 1px solid red;
+            position: relative;
+        }
+
+        .box1 {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            margin: auto;
+            background: green;
+
+        } */
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 400px;
+            border: 1px solid red;
+        }
+
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1"></div>
+    </div>
+
+</body>
+
+</html>

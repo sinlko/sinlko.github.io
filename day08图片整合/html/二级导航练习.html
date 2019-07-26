@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>二级导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .box {
+            width: 500px;
+            height: 40px;
+            margin: 50px auto;
+            position: relative;
+
+        }
+
+        .list .p {
+            float: left;
+            height: 40px;
+            width: 125px;
+            background: pink;
+        }
+
+        a {
+            display: block;
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .list1 {
+            width: 100%;
+            height: 40px;
+            left: 0px;
+            right: 0px;
+            background: orange;
+            position: absolute;
+            display: none;
+        }
+
+        .list1 li {
+            width: 125px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            float: left;
+        }
+
+        .p:hover .list1 {
+            display: block;
+        }
+
+        .list li:hover {
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <ul class="list">
+            <li class="p">
+                <a href="">水果</a>
+                <ul class="list1">
+                    <li><a href="">桃子</a> </li>
+                    <li><a href="">李子</a> </li>
+                    <li><a href="">苹果</a> </li>
+                    <li><a href="">香蕉</a> </li>
+                </ul>
+            </li>
+            <li class="p">
+                <a href="">服装</a>
+                <ul class="list1">
+                    <li><a href=""> 大衣</a> </li>
+                    <li><a href=""> 短袖</a> </li>
+                    <li><a href=""> 长裙</a> </li>
+                    <li><a href=""> 超短</a> </li>
+                </ul>
+            </li>
+            <li class="p">
+                <a href="">运动</a>
+                <ul class="list1">
+                    <li><a href=""> 篮球</a> </li>
+                    <li><a href=""> 排球</a> </li>
+                    <li><a href=""> 足球</a> </li>
+                    <li><a href=""> 羽毛球</a> </li>
+                </ul>
+            </li>
+            <li class="p">
+                <a href="">饮料</a>
+                <ul class="list1">
+                    <li><a href=""> 可乐</a> </li>
+                    <li><a href=""> 雪碧</a> </li>
+                    <li><a href=""> 橙汁</a> </li>
+                    <li><a href=""> 营养快线</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

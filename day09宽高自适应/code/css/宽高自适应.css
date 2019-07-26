@@ -1,0 +1,78 @@
+*{margin: 0;padding: 0;}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    width: 1350px;
+    height: 100%;
+}
+.box1,.box2{
+    float: left;
+   
+}
+.box .box1{
+    width: 245px;
+    margin-left: 179px;
+    margin-right: 4px;
+}
+.box .box2{
+    width: 745px;
+}
+.box .box1 h2{
+    font-size: 21px "微软雅黑";
+    line-height: 58px;
+    height: 58px;
+    color: #4c4c4c;
+    text-align: center;
+    background: url(../images/j2_03.jpg) no-repeat 8px center,
+                url(../images/j1_03.jpg) repeat;
+}
+.box .box1 ul{
+    border-bottom: 1px solid #dedede;
+    background: #fafafa;
+    padding-top: 22px;
+}
+.box .box1 ul li{
+    height: 45px;
+    font-size: 18px;
+    color: #4c4c4c;
+    line-height: 25px;
+    padding-left: 52px;
+}
+.box2-1,.list{
+    margin-left:20px;
+}
+.box2-1{
+      width: 696px;
+      height: 178px;
+      margin-top: 16px; 
+      background:  url(../images/kk_03.jpg)no-repeat 525px 68px,#f3e1c9;    
+}
+.box2-1 h3{
+    width: 468px;
+    font-size: 18px;
+    line-height: 24px;
+    width: 468px;
+    color: #c2716d;
+    padding: 29px 0 0 32px;
+}
+.box2 .list{
+    width: 652px;    
+}
+.box2 .list li{
+    height: 147px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.box2 .list li img{
+    display: block;
+    float: left;
+    padding: 20px 0;
+}
+.box2 .list li h4{
+    float: left;
+    padding-top: 20px;
+}
+

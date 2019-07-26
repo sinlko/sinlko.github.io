@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        /* 
+        伪元素选择器：
+            1、after
+            选择器::after{
+                content:"文字内容" | url(图片的路径)
+            }
+            表示给选择器添加一个子元素，并且这个子元素为最后一个元素，此元素为行内元素
+            注意点：必须配合content属性一起使用
+
+            2、before
+            选择器::before{
+                content:"文字内容" | url(图片的路径)
+            }
+            表示给选择器添加一个子元素，并且这个子元素为第一个元素，此元素为行内元素
+            注意点：必须配合content属性一起使用
+
+            3、first-letter
+            选择器::first-letter{
+                color:
+            }
+            表示给选择器中的第一个字符添加样式，但是只能作用于块级元素
+
+            4、first-line
+            选择器::first-line{
+
+            }
+            表示给选择器中第一行添加样式，但是只能作用于块级元素
+        
+        */
+        div::after {
+            content: url(../images/04.gif)
+        }
+
+        div::before {
+            content: "猜猜我在哪"
+        }
+
+        div::first-line {
+            color: red;
+        }
+
+        span::after {
+            content: "qwe"
+        }
+
+        span::first-letter {
+            color: green;
+        }
+
+        b::first-line {
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span>24324</span>
+    </div>
+    <b href=""> 表示给选择器中的第一个字符添加样式，但是只能作用于块级元素 表示给选择器中的第一个字符添加样式，但是只能作用于块级元素 表示给选择器中的第一个字符添加样式，但是只能作用于块级元素
+        表示给选择器中的第一个字符添加样式，但是只能作用于块级元素 表示给选择器中的第一个字符添加样式，但是只能作用于块级元素 表示给选择器中的第一个字符添加样式，但是只能作用于块级元素
+        表示给选择器中的第一个字符添加样式，但是只能作用于块级元素 表示给选择器中的第一个字符添加样式，但是只能作用于块级元素 表示给选择器中的第一个字符添加样式，但是只能作用于块级元素</b>
+
+</body>
+
+</html>
