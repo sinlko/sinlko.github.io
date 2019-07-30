@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>农业管理系统</title>
+    <link rel="stylesheet" href="../css/农业管理系统.css">
+</head>
+
+<body>
+    <div id="box">
+        <!-- ------------top---------------- -->
+        <div class="top">
+            <h2>农业部观测站物联网数据采集与管理系统</h2>
+            <div class="top-1">
+                <p class="p1">
+                    <a class="a1" href="">
+                        <img src="../images/dl.png" alt="">
+                    </a>
+                    <span class="sp1">欢迎您：admin！</span>
+                    <a class="a2" href="">
+                        <img src="../images/tc.png" alt="">
+                        <span class="sp2">退出</span>
+                    </a>
+                </p>
+                <ul class="list1">
+                    <li>
+                        <a href="">
+                            <p>数据采集</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <p>数据显示</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <p>实验管理</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <p>数据同步</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <p>设备管理</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <p>数据分析</p>
+                        </a>
+                    </li>
+                    <li style="margin-right: 0px;">
+                        <a href="">
+                            <p>系统管理</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- --------------bottom---------------- -->
+        <div class="bottom">
+            <div class="left">
+                <div class="sd" style="margin-top: 10px;">
+                    <a class="aa1" href="">设备信息</a>
+                    <div class="dd">
+                        <ul class="list2">
+                            <li>所有设备</li>
+                            <li>正常设备</li>
+                            <li>异常设备</li>
+                            <li style="margin-bottom: 0px;">共享设备</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="sd">
+                    <a class="aa2" href="">设备接口</a>
+                    <div class="dd">
+                        <ul class="list2">
+                            <li>所有设备</li>
+                            <li>正常设备</li>
+                            <li>异常设备</li>
+                            <li style="margin-bottom: 0px;">共享设备</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="sd">
+                    <a class="aa3" href="">集成设备</a>
+                    <div class="dd">
+                        <ul class="list2">
+                            <li>所有设备</li>
+                            <li>正常设备</li>
+                            <li>异常设备</li>
+                            <li style="margin-bottom: 0px;">共享设备</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right">
+                <p class="p2">当前位置>>设备管理>>设备信息>>正常设备>></p>
+                <p class="p3">
+                    <span class="sp4">
+                        <a href="">搜索</a>
+                    </span>
+                    <label for="sbname">设备名称：</label>
+                    <input type="text" id="sbname">
+                    <label for="sbleixing">设备类型:</label>
+                    <select name="sbleixing" id="sbleixing" placeholder="-请选择-">
+                        <option value="">111</option>
+                        <option value="">222</option>
+                    </select>
+                    <input class="sb" type="submit" value="查询">
+                </p>
+                <table>
+                    <!-- <tr>
+                        <td colspan="8"></td>
+                    </tr> -->
+                    <thead>
+                        <tr>
+                            <th>
+                                <input class="bt" type="button">
+                                <span>全选</span>
+                            </th>
+                            <th>设备类型</th>
+                            <th>设备名称</th>
+                            <th>设备编号</th>
+                            <th>创建日期</th>
+                            <th>设备状态</th>
+                            <th>是否共享</th>
+                            <th>修改</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>
+                            <input class="bt" type="button">
+                        </td>
+                        <td>网络摄像头</td>
+                        <td>Camera001</td>
+                        <td>2121212</td>
+                        <td>2015/02/28</td>
+                        <td>
+                            <img src="../images/device-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/share-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/xg.png" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bt" type="button">
+                        </td>
+                        <td>网络摄像头</td>
+                        <td>Camera001</td>
+                        <td>2121212</td>
+                        <td>2015/02/28</td>
+                        <td>
+                            <img src="../images/device-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/share-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/xg.png" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bt" type="button">
+                        </td>
+                        <td>网络摄像头</td>
+                        <td>Camera001</td>
+                        <td>2121212</td>
+                        <td>2015/02/28</td>
+                        <td>
+                            <img src="../images/device-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/share-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/xg.png" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bt" type="button">
+                        </td>
+                        <td>网络摄像头</td>
+                        <td>Camera001</td>
+                        <td>2121212</td>
+                        <td>2015/02/28</td>
+                        <td>
+                            <img src="../images/device-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/share-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/xg.png" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bt" type="button">
+                        </td>
+                        <td>网络摄像头</td>
+                        <td>Camera001</td>
+                        <td>2121212</td>
+                        <td>2015/02/28</td>
+                        <td>
+                            <img src="../images/device-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/share-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/xg.png" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bt" type="button">
+                        </td>
+                        <td>网络摄像头</td>
+                        <td>Camera001</td>
+                        <td>2121212</td>
+                        <td>2015/02/28</td>
+                        <td>
+                            <img src="../images/device-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/share-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/xg.png" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bt" type="button">
+                        </td>
+                        <td>网络摄像头</td>
+                        <td>Camera001</td>
+                        <td>2121212</td>
+                        <td>2015/02/28</td>
+                        <td>
+                            <img src="../images/device-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/share-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/xg.png" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bt" type="button">
+                        </td>
+                        <td>网络摄像头</td>
+                        <td>Camera001</td>
+                        <td>2121212</td>
+                        <td>2015/02/28</td>
+                        <td>
+                            <img src="../images/device-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/share-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/xg.png" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bt" type="button">
+                        </td>
+                        <td>网络摄像头</td>
+                        <td>Camera001</td>
+                        <td>2121212</td>
+                        <td>2015/02/28</td>
+                        <td>
+                            <img src="../images/device-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/share-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/xg.png" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bt" type="button">
+                        </td>
+                        <td>网络摄像头</td>
+                        <td>Camera001</td>
+                        <td>2121212</td>
+                        <td>2015/02/28</td>
+                        <td>
+                            <img src="../images/device-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/share-1.png" alt="">
+                        </td>
+                        <td>
+                            <img src="../images/xg.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+                <div class="p5">
+                    <span class="sb2">共有20条数据，当前第1页</span>
+                    <div class="p6">
+                        <span class="sb4">首页</span>
+                        <ul class="list3">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                        <span class="sb4">下一页</span>
+                        <span class="sb4">尾页</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
