@@ -9,4 +9,6 @@
 
 <a href="https://sinlko.github.io/day08%E5%9B%BE%E7%89%87%E6%95%B4%E5%90%88/html/360%E9%A1%B5%E9%9D%A2.html">360页面（删减版）</a>
 
+<a href="https://sinlko.github.io/day09%E5%AE%BD%E9%AB%98%E8%87%AA%E9%80%82%E5%BA%94/code/html/%E5%B0%8F%E9%B9%BF.html">小鹿</a>
+
 
