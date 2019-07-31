@@ -1,0 +1,26 @@
+块级格式化上下文 (Block Formatting Context)
+BFC是一个独立的布局环境，其中的元素布局是不受外界的影响。
+满足下列条件之一就可触发BFC
+
+　　【1】根元素，即HTML元素 
+　　【2】float的值不为none 
+　　【3】overflow的值不为visible 
+　　【4】display的值为inline-block 
+　　【5】position的值为absolute或fixed
+
+特性
+【1】阻止垂直外边距（margin-top、margin-bottom）折叠
+
+属于同一个BFC的两个相邻块级子元素（元素都要在文档流中）的上下margin会发生重叠—— 分为两个BFC就可以消除这种margin 重叠
+
+解决： 触发其中一个div的BFC，使得两个div不在同一个 BFC内，这样就可以阻止这两个div的margin重叠,display:inline-block;
+【2】包含浮动元素 
+可以包含它内部的所有元素，包括浮动元素——因此一清除内部浮动
+
+解决：清除环绕， overflow: hidden;，为其本身创建一个BFC
+
+bfc的作用：
+1.自适应两栏布局
+2.可以阻止元素被浮动元素覆盖
+3.可以包含浮动元素——清除内部浮动
+4.分别属于不同的BFC时可以阻止margin重叠
