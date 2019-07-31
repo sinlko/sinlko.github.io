@@ -11,4 +11,6 @@
 
 <a href="https://sinlko.github.io/day09%E5%AE%BD%E9%AB%98%E8%87%AA%E9%80%82%E5%BA%94/code/html/%E5%B0%8F%E9%B9%BF.html">小鹿</a>
 
+<a href="https://sinlko.github.io/day10--%E8%A1%A8%E6%A0%BC%E8%A1%A8%E5%8D%95%E7%9A%84%E8%A1%A5%E5%85%85/code/html/%E5%86%9C%E4%B8%9A%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.html">农业数据管理系统</a>
+
 
