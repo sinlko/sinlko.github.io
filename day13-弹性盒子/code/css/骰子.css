@@ -1,0 +1,72 @@
+*{
+    margin: 0;padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+html,body{
+    height: 100%;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 1000px;
+    height: 200px;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.box li{
+    width: 100px;
+    height: 100px;
+    background: #e7e7e7;  
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0px -5px 0px 0px #bbbbbb inset,
+                0 5px 0 0 #fff inset,
+                5px 0 0 0 #d7d7d7 inset,
+                -5px 0 0 0 #d7d7d7 inset;
+
+}
+.box li span{
+    width: 20px;
+    height: 20px;
+    background: #333333;
+    border-radius: 50%;
+    display: flex;
+    
+}
+.box li:nth-child(1){
+    justify-content: center;
+    align-items: center;
+}
+.box li:nth-child(2),
+.box li:nth-child(3),
+.box li:nth-child(4),
+.box li:nth-child(5),
+.box li:nth-child(6){
+    justify-content: space-between;
+}
+.box li:nth-child(2) span:nth-child(2),
+.box li:nth-child(3) span:nth-child(3){
+    align-self: flex-end;
+}
+.box li:nth-child(3) span:nth-child(2){
+    align-self: center;
+}
+.box li div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+.box li:nth-child(5) div:nth-child(2){
+    justify-content: center;
+}
+
