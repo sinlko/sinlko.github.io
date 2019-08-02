@@ -17,4 +17,8 @@
 
 <a href="https://sinlko.github.io/day11--HTML5%E5%8F%8ACSS3%E6%96%B0%E6%A0%87%E7%AD%BE/code/html/%E5%AE%89%E5%8D%93%E5%B0%8F%E4%BA%BA.html">安卓小人</a>
 
+<a href="https://sinlko.github.io/day13-%E5%BC%B9%E6%80%A7%E7%9B%92%E5%AD%90/code/html/%E5%BC%B9%E6%80%A7%E7%9B%92%E9%A1%B5%E9%9D%A2%E7%BB%83%E4%B9%A0.html">弹性盒模型（作业）婚庆删减版</a>
+
+<a href="https://sinlko.github.io/day13-%E5%BC%B9%E6%80%A7%E7%9B%92%E5%AD%90/code/html/%E9%AA%B0%E5%AD%90.html">骰子</a>
+
 
