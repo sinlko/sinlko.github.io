@@ -17,9 +17,8 @@ html,body{
 }
 .box{
     height: 100%;
-    width: 1350px;
+    width: 100%;
     position: relative;
-
 }
 
 /* top */
@@ -48,7 +47,7 @@ html,body{
                 1px 0 8px 0 #f8f8f8;
     position: absolute;
     top: 136px;
-    left: 74px;
+    left: 2px;
     display: flex;
     justify-content: space-around;
     align-items: center;
