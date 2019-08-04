@@ -21,4 +21,4 @@
 
 <a href="https://sinlko.github.io/day13-%E5%BC%B9%E6%80%A7%E7%9B%92%E5%AD%90/code/html/%E9%AA%B0%E5%AD%90.html">骰子</a>
 
-
+<a href="https://sinlko.github.io/day14--%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2/code/html/allpyra.html">allpyra</a>
