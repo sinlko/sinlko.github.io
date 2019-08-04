@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- 
+        移动端必须的代码：
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         移动端的像素比问题：
+         像素比（dpr） 、物理像素[设计图量出来的值] 、 逻辑像素[代码中需要写的值]
+         dpr = 物理像素 / 逻辑像素 
+         dpr 的取值：2 | 3
+         移动端设计图一般有：640px 750px 1080px
+         其中为640px 和 750px 的设计图时候，dpr = 2；
+         如果设计图为1080px 的，dpr = 3；
+         逻辑像素 = 物理像素 / dpr
+
+     -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        #zhifubao {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #zhifubao header {
+            height: 160px;
+            background: #3f454f;
+        }
+
+        #zhifubao main {
+            flex: 1;
+        }
+
+        #zhifubao footer {
+            height: 50px;
+            background: #3f454f;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="zhifubao">
+        <header>header</header>
+        <main>main</main>
+        <footer>footer</footer>
+    </div>
+
+</body>
+
+</html>

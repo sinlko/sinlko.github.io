@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+
+
+        @media all and (min-width:401px) and (max-width:800px) {
+            div {
+                background: green;
+            }
+        }
+
+        @media all and (min-width:0px) and (max-width:400px) {
+            div {
+                background: pink;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        媒体查询概念：获取设备信息，为其设置相应css样式
+        媒体查询的组成：
+            @media all  and (检测媒体特性的表达式){
+                满足以上的表达式，就会执行这列的代码
+                css语法（选择器{}）
+            }
+            @media all  and (检测媒体特性的表达式1) and (检测媒体特性的表达式2){
+                ，满足以上两个条件之后才会执行这里的代码
+            }
+            and：关键字，用于连接 媒体类型和表达式 或 多个表达式之间的连接
+        条件一般使用min-width 或 max-width属性
+        如果使用min-width作为条件的时候，值小的放在前面
+        如果使用max-width作为条件的时候，值大的放在前面
+        注意点：默认样式一定要写在最前面
+
+     -->
+    <div></div>
+</body>
+
+</html>

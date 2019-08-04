@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%；
+        }
+
+        .box {
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box li {
+            width: 100%;
+            border-right: 1px solid red;
+        }
+
+        @media all and (min-width:0px) and (max-width: 400px) {
+            .box li:nth-child(n+2) {
+                display: none;
+            }
+        }
+
+        @media all and (min-width:401px) and (max-width: 700px) {
+            .box li:nth-child(n+3) {
+                display: none;
+            }
+        }
+
+        @media all and (min-width:701px) and (max-width: 1100px) {
+            .box li:nth-child(n+4) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="box">
+        <li>你开发能力开放能顺利看法呢李开复呢快乐打卡了离你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的而颇为发生的
+        </li>
+        <li>你开发能力开放能顺利看法呢李开复呢快乐打卡了离你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的而颇为发生的
+        </li>
+        <li>你开发能力开放能顺利看法呢李开复呢快乐打卡了离你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的而颇为发生的
+        </li>
+        <li>你开发能力开放能顺利看法呢李开复呢快乐打卡了离你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的你开发能力开放能顺利看法呢李开复呢快乐打卡了离开佛平静而颇为发生的而颇为发生的
+        </li>
+    </ul>
+</body>
+
+</html>

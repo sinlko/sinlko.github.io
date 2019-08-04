@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        .box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        li {
+            width: 22%;
+            height: 400px;
+            border: 1px solid red;
+            margin-bottom: 10px;
+        }
+
+        @media all and (min-width:0px) and (max-width:400px) {
+            li {
+                width: 96%;
+            }
+        }
+
+        @media all and (min-width:401px) and (max-width:700px) {
+            li {
+                width: 46%;
+            }
+        }
+
+        @media all and (min-width:701px) and (max-width:1100px) {
+            li {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        利用媒体查询 + 弹性布局（子元素宽度可以设置100%）
+            1、0-400px ,页面呈现1列布局
+            2、401-700px页面呈现2列布局
+            3、701-1100px页面呈现3列布局
+            4、1100+以上呈现4列布局（默认样式）
+     -->
+    <ul class="box">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+</body>
+
+</html>

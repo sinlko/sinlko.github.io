@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="../iconfont/iconfont.css"> -->
+    <style>
+        @font-face {
+            font-family: "icon";
+            src: url('../iconfont/iconfont.eot');
+            src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+                url('../iconfont/iconfont.svg#icomoon') format('svg'),
+                url('../iconfont/iconfont.woff') format('woff'),
+                url('../iconfont/iconfont.ttf') format('truetype');
+        }
+
+        .zhifubao::after {
+            content: "\e600"
+        }
+
+        .pengyou::after {
+            content: "\e61c"
+        }
+
+        .iconfont {
+            font-family: icon;
+        }
+
+        /* span::after {
+            content: "\e600"
+        } */
+
+        i {
+            font-family: "icon";
+            font-style: normal;
+        }
+
+        /* i::after {
+            content: "\e61c"
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- 
+        自定义字体图标的使用方法：
+        1、使用字体编码作为元素的内容
+            <span>&#xe600;</span>
+        
+        2、利用伪元素选择器使用字体图标
+            .iocnfont {
+                font-family: icon;
+            }
+            .zhifubao::after {
+                content: "\e600"; content的内容为： \ + 字体编码的后四位,字体编码没有分号
+            } 
+
+            使用：
+            <span class="iconfont zhifubao"></span>
+
+     -->
+    <!-- <span>&#xe631;</span> -->
+    <span class="iconfont zhifubao"></span>
+    <span class="iconfont pengyou"></span>
+</body>
+
+</html>

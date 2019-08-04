@@ -1,0 +1,192 @@
+*{
+    margin: 0;padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+html,body{
+    height: 100%;  
+    width: 100%;
+
+}
+#allpyra{
+    height: 100%;
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.header{
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(../images/logo.png) no-repeat center center,#fff;
+    a{
+        display: block;
+        height: 24px;
+        width: 24px;
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+.nav{
+    height: 285px;
+    background: pink;
+    .banner{
+        height: 210px;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .nav-1{
+        flex: 1;      
+        ul{
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            li{
+                height: 75px ;
+                width: 20%;
+                box-sizing: border-box;
+                font-size: 8px;
+                line-height: 8px;
+                text-align: center;
+                a{
+                    display: block;
+                    height: 100%;
+                    color: #2c2c2c;
+                    box-sizing: border-box;
+                    padding-top: 58px;
+                }
+            }
+            li:nth-child(1){
+                background: url(../images/icon1.png) no-repeat center 2px;
+                background-size: 66%;
+            }
+            li:nth-child(2){
+                background: url(../images/icon2.png) no-repeat center 2px;
+                background-size: 66%;
+            }
+            li:nth-child(3){
+                background: url(../images/icon3.png) no-repeat center 2px;
+                background-size: 66%;
+            }
+            li:nth-child(4){
+                background: url(../images/icon4.png) no-repeat center 2px;
+                background-size: 66%;
+            }
+        }
+    }
+}
+.box{
+    flex: 1px;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    .live{
+        height: 65px;
+        background: url(../images/bg.png) ;
+        background-size: 100%;
+        margin: 10px 0;
+        overflow: hidden;
+        p{
+            height: 14px;
+            margin: 11px 0;
+            line-height: 14px;
+            text-align: center;
+            span{
+                padding: 1px;
+                font-size: 7px;
+                line-height: 13px;
+                color: #d8c894;
+                border: 1px solid #d8c894;
+            }
+            a{
+                font-size: 9px;
+                color: #2c2c2c;
+            }
+        }
+    }
+    .main1{
+        height: 170px;
+        .m1{
+           width: 351px;
+           margin: 0 auto;
+           img{
+               display: block;
+               width: 351px;
+               height: 170px;
+           }
+        }
+     }
+    //  .main2{
+    //     height: 155px;
+    //     background: orange;
+    //  }
+}
+.footer{
+    height: 65px;
+    background: #fff;
+    ul{
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        li{
+            height: 65px;
+            width: 20%;
+            box-sizing: border-box;
+            font-size: 12px;
+            line-height: 12px;
+            text-align: center;
+            a{
+                display: block;
+                flex: 1;
+                color: #5f5f5f;
+                padding-top: 50px;
+                box-sizing: border-box;
+            }
+        }
+        li:nth-child(1){
+            background: url(../images/tab1.png) no-repeat center 2px;
+            background-size: 60%;
+        }
+        li:nth-child(2){
+            background: url(../images/tab2.png) no-repeat center 2px;
+            background-size: 60%;
+        }
+        li:nth-child(3){
+            background: url(../images/tab3.png) no-repeat center 2px;
+            background-size: 60%;
+        }
+        li:nth-child(4){
+            background: url(../images/tab3.png) no-repeat center 2px;
+            background-size: 60%;
+        }
+    }
+    
+}
+@media all and (min-width: 0) and (max-width: 400px){
+    #allpyra{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media all and (min-width: 401px) and (max-width: 1300px){
+    #allpyra{
+        width: 375px;
+        height: 100%;
+        margin: auto;
+    }
+}
