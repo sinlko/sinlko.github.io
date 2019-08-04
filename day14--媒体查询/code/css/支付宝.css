@@ -134,3 +134,9 @@ html, body {
   color: #fff;
   margin-top: 3px;
 }
+@media all and (min-width: 0) and (max-width: 1500px){
+  .zhifubao {
+       width: 375px;
+       margin: 0 auto;
+  }
+}
