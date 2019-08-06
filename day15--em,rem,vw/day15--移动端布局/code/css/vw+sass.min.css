@@ -1,0 +1,1 @@
+*{padding:0;margin:0}html,body{height:100%}#zhifubao{height:100%;display:flex;flex-direction:column}#zhifubao header{height:42.66667vw;background:pink}#zhifubao main{flex:1}#zhifubao footer{height:13.33333vw;line-height:13.33333vw;font-size:3.2vw;background:pink}

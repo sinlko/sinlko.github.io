@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 26.67vw;
+}
+
+body {
+    font-size: 16px;
+}
+
+html,
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#zhifubao {
+    height: 100%;
+    width: 3.75rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    .header {
+        height: 1.65rem;
+        background: #3f454f;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+
+        .list1 {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+
+            li {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+                color: #fff;
+
+                i {
+                    font-size: 0.25rem;
+                }
+            }
+
+            li:nth-child(1) {
+                flex: 4;
+                padding-left: 0.15rem;
+                box-sizing: border-box;
+
+
+                span {
+                    font-size: 0.16rem;
+                    padding-left: 0.11rem;
+                }
+            }
+
+            li:nth-child(n+2) {
+                justify-content: center;
+            }
+        }
+
+
+        .list2 {
+            flex: 3;
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+
+            li {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: #fff;
+                box-sizing: border-box;
+
+                .iconfont {
+                    font-size: 0.35rem;
+
+                }
+
+                span {
+                    font-size: 0.15rem;
+                    padding-top: 0.15rem;
+                }
+            }
+        }
+    }
+
+    .box {
+        flex: 1;
+        box-sizing: border-box;
+
+        ul {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+
+            li {
+                width: 25%;
+                height: 0.9rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+
+                i {
+                    font-size: 0.3rem;
+                }
+
+                .icon-jipiao,
+                .icon-jizhangben,
+                .icon-wodekefu {
+                    color: #2eb3e8;
+                }
+
+                .icon-fuwuchuang {
+                    color: #29ab91;
+                }
+
+                .icon-tianmao {
+                    color: #dd2727;
+                }
+
+                .icon-gupiao,
+                .icon-41kongxinfangzi {
+                    color: #f96268;
+                }
+
+                .icon-kuaidi,
+                .icon-shoukuan {
+                    color: #ffb359;
+                }
+
+                .icon-jiayou {
+                    color: #36bc99;
+                }
+
+                span {
+                    font-size: 0.12rem;
+                    color: #434343;
+                    padding-top: 0.14rem;
+                }
+
+            }
+        }
+    }
+
+    .footer {
+        height: 0.5rem;
+        background: #ccc;
+        display: flex;
+        box-sizing: border-box;
+
+        ul {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+
+            li {
+                flex: 1;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    font-size: 0.23rem;
+                }
+
+                span {
+                    font-size: 0.1rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 26.67vw;
+}
+
+body {
+    // 重置font-size的值
+    font-size: 16px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#zhifubao {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    header {
+        height: 1.6rem;
+        background: #000;
+    }
+
+    main {
+        flex: 1;
+    }
+
+    footer {
+        height: 0.5rem;
+        background: pink;
+    }
+}

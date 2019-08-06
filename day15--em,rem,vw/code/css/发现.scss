@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+@function vw($px) {
+    @return($px / 750) * 100vw;
+}
+
+#faxian {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #f5f5f5;
+    box-sizing: border-box;
+
+    .header {
+        height: vw(320);
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+
+        h2 {
+            font-size: vw(32);
+            height: vw(32);
+            padding-left: vw(34);
+            box-sizing: border-box;
+        }
+
+        p {
+            font-size: vw(22);
+            color: #9f9f9f;
+            padding-left: vw(34);
+            box-sizing: border-box;
+
+        }
+
+        .left {
+            width: vw(375);
+            box-sizing: border-box;
+            border-right: vw(1) solid #ccc;
+            background: url(../images/hongbao2.webp) no-repeat vw(204) vw(168), #fff;
+            background-size: 40%;
+
+            h2 {
+                margin: vw(50) 0 vw(20) 0;
+
+                a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    color: #fd9814;
+                }
+            }
+        }
+
+        .right {
+            width: vw(375);
+            box-sizing: border-box;
+            overflow: hidden;
+
+            ul {
+                width: 100%;
+                box-sizing: border-box;
+
+                li {
+                    height: vw(160);
+                    width: vw(375);
+                    box-sizing: border-box;
+                    overflow: hidden;
+
+                    h2 {
+                        margin: vw(44) 0 vw(20) 0;
+
+                        a {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+
+                        }
+
+                        .a1 {
+                            color: #3aadca;
+                        }
+
+                        .a2 {
+                            color: #e76d62;
+                        }
+                    }
+                }
+
+                li:nth-child(1) {
+                    background: url(../images/hongbao1.webp) no-repeat vw(230) vw(0), #fff;
+                    background-size: 40%;
+                    border-bottom: vw(1) solid #ccc;
+                }
+
+                li:nth-child(2) {
+                    background: url(../images/hongbao1.webp) no-repeat vw(230) vw(0), #fff;
+                    background-size: 40%;
+                }
+            }
+        }
+    }
+
+    .main {
+        flex: 1;
+        overflow-y: scroll;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+
+        .box1 {
+            height: vw(134);
+            margin-top: vw(22);
+
+            h4 {
+                font-size: vw(32);
+                font-weight: 900;
+                color: #363636;
+                height: vw(32);
+                line-height: vw(32);
+                text-align: center;
+                margin-top: vw(42);
+
+            }
+
+            p {
+                height: vw(42);
+                font-size: vw(22);
+                line-height: vw(42);
+                text-align: center;
+                color: #989898;
+            }
+
+            em {
+                display: block;
+                height: vw(2);
+                width: vw(26);
+                background: #000;
+            }
+
+            .em1 {
+                position: absolute;
+                top: vw(400);
+                left: vw(248);
+            }
+
+            .em2 {
+                position: absolute;
+                top: vw(400);
+                left: vw(4823);
+            }
+        }
+    }
+
+    .footer {
+        height: vw(108);
+        border-top: vw(1) solid #cff;
+
+        ul {
+            height: vw(108);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            li {
+                height: vw(108);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: #808080;
+            }
+
+            li:hover {
+                color: #008efe;
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* 
+            如果想要使用媒体查询 结合 rem单位布局移动端，你是怎么做的？
+            1、利用媒体查询更改HTML的font-size值
+            2、然后页面中所有元素的布局都是使用rem单位
+
+            缺点：不能适配到所有设备（代码量比较大） 
+            不推荐使用
+
+         */
+
+        @media all and (min-width:0px) and (max-width:320px) {
+
+            /* div {
+                width: 320px;
+            } */
+            html {
+                font-size: 32px;
+            }
+        }
+
+        @media all and (min-width:321px) and (max-width:375px) {
+
+            /* div {
+                width: 375px;
+            } */
+            html {
+                font-size: 37.5px;
+            }
+        }
+
+        @media all and (min-width:376px) and (max-width:414px) {
+
+            /* div {
+                width: 414px;
+            } */
+            html {
+                font-size: 41.4px;
+            }
+
+        }
+
+        div {
+            width: 10rem;
+            height: 5rem;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+
+</body>
+
+</html>

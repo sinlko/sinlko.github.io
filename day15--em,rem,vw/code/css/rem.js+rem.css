@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#box header {
+  height: 4.266667rem;
+  background: pink;
+}
+
+#box main {
+  flex: 1;
+  background: red;
+}
+
+#box footer {
+  height: 1.333333rem;
+  background: orange;
+}

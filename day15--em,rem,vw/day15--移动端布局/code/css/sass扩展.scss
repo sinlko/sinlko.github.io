@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none
+}
+
+// 变量一定要使用$符号开头
+$width:100px;
+$height:50px;
+
+@function color($color){
+    @return $color;
+}
+
+ul {
+    li {
+        float: left;
+        width: $width;
+        height: $height;
+        background: #000;
+        border-right: 1px solid color(#ccc);
+
+        a {
+            width: $width;
+            height: $height;
+            line-height: $height;
+            text-align: center;
+            display: block;
+            color: #fff;
+        }
+
+        &:hover {
+            background: orange;
+        }
+    }
+}

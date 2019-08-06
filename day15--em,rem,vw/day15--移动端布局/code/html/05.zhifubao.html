@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        html {
+            /* font-size: 26.67vw; */
+            /* 
+                750px（设计图） ---- 375px（设备）----dpr=2
+                100vw   = 375px 
+                26.67vw = 100px
+                当设计图为750px的时候，那么HTML的font-size值为26.67vw
+            
+                640px(设计图) ----- 320px(设备)----dpr=2
+                100vw   = 320px
+                31.25vw = 100px
+                当设计图为640px的时候，那么HTML的font-size值为31.25vw
+
+                1080px(设计图) ---- 360px(设备) ----dpr=3
+                100vw = 360px
+                27.78vw = 100px
+                当设计图为1080px的时候，那么HTML的font-size值为27.78vw
+                最后：元素的值 = 设计图量出来的值 / dpr / 100px = 逻辑值（单位为rem）
+
+                比较简单的计算：
+                750px设计稿 ----(100px/750px)*100vw = 13.3333vw
+                640px设计稿 ----(100px/750px)*100vw = 15.625vw
+                1080px设计稿----(100px/750px)*100vw = 9.25926vw
+                最后：元素的值 = 设计图的量出的值 / 100px = 逻辑值（单位为rem）
+            */
+        }
+
+        div {
+            /* 200px  --- rem */
+            /* width: 3rem; */
+            /* 
+            元素的值 = 设计图量出来的值 / dpr / 100px = 逻辑值
+             */
+            /* height: 0.5rem;
+            font-size: 10px; */
+        }
+    </style>
+    <link rel="stylesheet" href="../css/zhifubao.css">
+</head>
+
+<body>
+    <div id="zhifubao">
+        <header>1</header>
+        <main>2</main>
+        <footer>3</footer>
+    </div>
+
+
+</body>
+
+</html>

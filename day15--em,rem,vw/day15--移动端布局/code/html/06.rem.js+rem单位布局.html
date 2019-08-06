@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/rem.js"></script>
+    <link rel="stylesheet" href="">
+    <style>
+        /* 
+            rem.js +  rem单位布局：
+            1、安装（cssrem插件），文件---首选项---设置（搜索：cssrem，把root font size的值改为 设计图 / 10 的值）-- 重启编辑器
+
+            2、在HTML页面中使用 script 标签引入rem.js （在自己写的样式之前）
+            <script src="../js/rem.js"></script>
+
+            3、在rem.js里面的18行把数字改为设计图的宽度
+
+            4、在css编写过程中，在设计图中量出多少就写多少（选择转化为rem的那个值）
+        */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        #zhifubao {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #zhifubao header {
+            height: 4.266667rem;
+            background: pink;
+        }
+
+        #zhifubao main {
+            flex: 1;
+        }
+
+        #zhifubao footer {
+            height: 1.333333rem;
+            background: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="zhifubao">
+        <header>1</header>
+        <main>2</main>
+        <footer>3</footer>
+    </div>
+</body>
+
+</html>
