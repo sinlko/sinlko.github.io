@@ -124,9 +124,20 @@ body {
         display: flex;
         flex-direction: column;
 
-        .box1 {
+        .box1,
+        .box2 {
             height: vw(134);
             margin-top: vw(22);
+            position: relative;
+            background: #fff;
+
+            img {
+                width: vw(36);
+                height: vw(32);
+                position: absolute;
+                left: vw(272);
+                top: vw(42);
+            }
 
             h4 {
                 font-size: vw(32);
@@ -134,7 +145,8 @@ body {
                 color: #363636;
                 height: vw(32);
                 line-height: vw(32);
-                text-align: center;
+                box-sizing: border-box;
+                padding-left: vw(320);
                 margin-top: vw(42);
 
             }
@@ -156,14 +168,206 @@ body {
 
             .em1 {
                 position: absolute;
-                top: vw(400);
-                left: vw(248);
+                top: vw(56);
+                left: vw(238);
             }
 
             .em2 {
                 position: absolute;
-                top: vw(400);
-                left: vw(4823);
+                top: vw(56);
+                left: vw(482);
+            }
+        }
+
+        .list {
+            height: vw(1734);
+            background: #fff;
+
+            ul {
+                height: vw(1650);
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+
+                li {
+                    height: vw(530);
+                    width: vw(344);
+                    border: vw(1) solid #bbbbbb;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-bottom: vw(20);
+
+                    img {
+                        width: vw(344);
+                        height: vw(344);
+                        display: block;
+                    }
+
+                    .list-1 {
+                        height: vw(184);
+                        width: vw(310);
+
+                        h2 {
+                            font-size: vw(28);
+                            height: vw(52);
+                            color: #333333;
+                            line-height: vw(52);
+                        }
+
+                        .pp1 {
+                            height: vw(20);
+                            font-size: vw(20);
+                            color: #626262;
+
+                            span {
+                                display: block;
+                                line-height: vw(20);
+                                height: vw(20);
+                                float: left;
+                            }
+                        }
+
+                        .pp2 {
+                            height: vw(48);
+                            display: flex;
+                            align-items: center;
+                            flex-direction: row;
+                            border-bottom: vw(1) dashed #333333;
+
+                            span {
+                                display: block;
+                            }
+
+                            span:nth-child(1) {
+                                height: vw(25);
+                                line-height: vw(25);
+                                font-size: vw(25);
+                                color: #fc5d00;
+                            }
+
+                            span:nth-child(2) {
+                                height: vw(25);
+                                line-height: vw(25);
+                                text-align: center;
+                                font-size: vw(20);
+                                box-sizing: border-box;
+                                border: vw(1) solid #fe8f86;
+                                color: #fe8f86;
+                                margin-left: vw(12);
+                            }
+                        }
+
+                        .pp3 {
+                            height: vw(64);
+
+                            font-size: vw(20);
+                            line-height: vw(64);
+                            color: #979797;
+                            box-sizing: border-box;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .kan {
+            height: vw(104);
+            background: #fff;
+
+            h2 {
+                height: 100%;
+                font-size: vw(26);
+                line-height: vw(104);
+                text-align: center;
+                color: #9d9d9d;
+            }
+        }
+
+        .list2 {
+            height: vw(350);
+            background: #fff;
+
+            ul {
+                height: vw(350);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                li {
+                    width: vw(226);
+                    position: relative;
+
+                    .ss {
+                        height: vw(226);
+                        width: vw(226);
+                    }
+
+                    .ss1 {
+                        background: url(../images/fa1_03.jpg) no-repeat center center;
+                        background-size: 80%;
+                    }
+
+                    .ss2 {
+                        background: url(../images/fa2_03.jpg) no-repeat center center;
+                        background-size: 80%;
+                    }
+
+                    .ss3 {
+                        background: url(../images/fa3_03.jpg) no-repeat center center;
+                        background-size: 80%;
+                    }
+
+                    h2 {
+                        height: vw(74);
+                        font-size: vw(22);
+                        line-height: vw(74);
+                        color: #323232;
+                    }
+
+                    .dd1 {
+                        height: vw(24);
+                        display: flex;
+                        flex-direction: row;
+
+                        span {
+                            display: block;
+                        }
+
+                        span:nth-child(1) {
+                            height: vw(24);
+                            font-size: vw(24);
+                            color: #ee583f;
+                        }
+
+                        span:nth-child(2) {
+                            height: vw(16);
+                            font-size: vw(16);
+                            color: #a9a9a9;
+                            margin-left: vw(12);
+                        }
+                    }
+
+                    .dd2 {
+                        height: vw(38);
+                        width: vw(98);
+                        background: #454140;
+                        color: #fff;
+                        font-size: vw(20);
+                        line-height: vw(38);
+                        text-align: center;
+                        position: absolute;
+                        top: vw(0);
+                        left: vw(0);
+
+                    }
+                }
+
+
+
             }
         }
     }

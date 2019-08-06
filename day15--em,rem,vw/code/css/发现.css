@@ -120,22 +120,37 @@ body {
   flex-direction: column;
 }
 
-#faxian .main .box1 {
+#faxian .main .box1,
+#faxian .main .box2 {
   height: 17.86667vw;
   margin-top: 2.93333vw;
+  position: relative;
+  background: #fff;
 }
 
-#faxian .main .box1 h4 {
+#faxian .main .box1 img,
+#faxian .main .box2 img {
+  width: 4.8vw;
+  height: 4.26667vw;
+  position: absolute;
+  left: 36.26667vw;
+  top: 5.6vw;
+}
+
+#faxian .main .box1 h4,
+#faxian .main .box2 h4 {
   font-size: 4.26667vw;
   font-weight: 900;
   color: #363636;
   height: 4.26667vw;
   line-height: 4.26667vw;
-  text-align: center;
+  box-sizing: border-box;
+  padding-left: 42.66667vw;
   margin-top: 5.6vw;
 }
 
-#faxian .main .box1 p {
+#faxian .main .box1 p,
+#faxian .main .box2 p {
   height: 5.6vw;
   font-size: 2.93333vw;
   line-height: 5.6vw;
@@ -143,23 +158,212 @@ body {
   color: #989898;
 }
 
-#faxian .main .box1 em {
+#faxian .main .box1 em,
+#faxian .main .box2 em {
   display: block;
   height: 0.26667vw;
   width: 3.46667vw;
   background: #000;
 }
 
-#faxian .main .box1 .em1 {
+#faxian .main .box1 .em1,
+#faxian .main .box2 .em1 {
   position: absolute;
-  top: 53.33333vw;
-  left: 33.06667vw;
+  top: 7.46667vw;
+  left: 31.73333vw;
 }
 
-#faxian .main .box1 .em2 {
+#faxian .main .box1 .em2,
+#faxian .main .box2 .em2 {
   position: absolute;
-  top: 53.33333vw;
-  left: 643.06667vw;
+  top: 7.46667vw;
+  left: 64.26667vw;
+}
+
+#faxian .main .list {
+  height: 231.2vw;
+  background: #fff;
+}
+
+#faxian .main .list ul {
+  height: 220vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#faxian .main .list ul li {
+  height: 70.66667vw;
+  width: 45.86667vw;
+  border: 0.13333vw solid #bbbbbb;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.66667vw;
+}
+
+#faxian .main .list ul li img {
+  width: 45.86667vw;
+  height: 45.86667vw;
+  display: block;
+}
+
+#faxian .main .list ul li .list-1 {
+  height: 24.53333vw;
+  width: 41.33333vw;
+}
+
+#faxian .main .list ul li .list-1 h2 {
+  font-size: 3.73333vw;
+  height: 6.93333vw;
+  color: #333333;
+  line-height: 6.93333vw;
+}
+
+#faxian .main .list ul li .list-1 .pp1 {
+  height: 2.66667vw;
+  font-size: 2.66667vw;
+  color: #626262;
+}
+
+#faxian .main .list ul li .list-1 .pp1 span {
+  display: block;
+  line-height: 2.66667vw;
+  height: 2.66667vw;
+  float: left;
+}
+
+#faxian .main .list ul li .list-1 .pp2 {
+  height: 6.4vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-bottom: 0.13333vw dashed #333333;
+}
+
+#faxian .main .list ul li .list-1 .pp2 span {
+  display: block;
+}
+
+#faxian .main .list ul li .list-1 .pp2 span:nth-child(1) {
+  height: 3.33333vw;
+  line-height: 3.33333vw;
+  font-size: 3.33333vw;
+  color: #fc5d00;
+}
+
+#faxian .main .list ul li .list-1 .pp2 span:nth-child(2) {
+  height: 3.33333vw;
+  line-height: 3.33333vw;
+  text-align: center;
+  font-size: 2.66667vw;
+  box-sizing: border-box;
+  border: 0.13333vw solid #fe8f86;
+  color: #fe8f86;
+  margin-left: 1.6vw;
+}
+
+#faxian .main .list ul li .list-1 .pp3 {
+  height: 8.53333vw;
+  font-size: 2.66667vw;
+  line-height: 8.53333vw;
+  color: #979797;
+  box-sizing: border-box;
+}
+
+#faxian .main .kan {
+  height: 13.86667vw;
+  background: #fff;
+}
+
+#faxian .main .kan h2 {
+  height: 100%;
+  font-size: 3.46667vw;
+  line-height: 13.86667vw;
+  text-align: center;
+  color: #9d9d9d;
+}
+
+#faxian .main .list2 {
+  height: 46.66667vw;
+  background: #fff;
+}
+
+#faxian .main .list2 ul {
+  height: 46.66667vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#faxian .main .list2 ul li {
+  width: 30.13333vw;
+  position: relative;
+}
+
+#faxian .main .list2 ul li .ss {
+  height: 30.13333vw;
+  width: 30.13333vw;
+}
+
+#faxian .main .list2 ul li .ss1 {
+  background: url(../images/fa1_03.jpg) no-repeat center center;
+  background-size: 80%;
+}
+
+#faxian .main .list2 ul li .ss2 {
+  background: url(../images/fa2_03.jpg) no-repeat center center;
+  background-size: 80%;
+}
+
+#faxian .main .list2 ul li .ss3 {
+  background: url(../images/fa3_03.jpg) no-repeat center center;
+  background-size: 80%;
+}
+
+#faxian .main .list2 ul li h2 {
+  height: 9.86667vw;
+  font-size: 2.93333vw;
+  line-height: 9.86667vw;
+  color: #323232;
+}
+
+#faxian .main .list2 ul li .dd1 {
+  height: 3.2vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#faxian .main .list2 ul li .dd1 span {
+  display: block;
+}
+
+#faxian .main .list2 ul li .dd1 span:nth-child(1) {
+  height: 3.2vw;
+  font-size: 3.2vw;
+  color: #ee583f;
+}
+
+#faxian .main .list2 ul li .dd1 span:nth-child(2) {
+  height: 2.13333vw;
+  font-size: 2.13333vw;
+  color: #a9a9a9;
+  margin-left: 1.6vw;
+}
+
+#faxian .main .list2 ul li .dd2 {
+  height: 5.06667vw;
+  width: 13.06667vw;
+  background: #454140;
+  color: #fff;
+  font-size: 2.66667vw;
+  line-height: 5.06667vw;
+  text-align: center;
+  position: absolute;
+  top: 0vw;
+  left: 0vw;
 }
 
 #faxian .footer {
