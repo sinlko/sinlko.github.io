@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>渐变练习</title>
+    <style>
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(135deg, transparent 15px, blue 0) left top,
+                linear-gradient(-135deg, transparent 15px, blue 0) right top,
+                linear-gradient(45deg, transparent 15px, blue 0) left bottom,
+                linear-gradient(-45deg, transparent 15px, blue 0) right bottom;
+            background-size: 50% 50%;
+            background-repeat: no-repeat;
+        }
+
+        .box2 {
+            margin-top: 20px;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle at left top, transparent 20px, #58a 0) left top,
+                radial-gradient(circle at right top, transparent 20px, #58a 0) right top,
+                radial-gradient(circle at left bottom, transparent 20px, #58a 0) left bottom,
+                radial-gradient(circle at right bottom, transparent 20px, #58a 0) right bottom;
+            background-repeat: no-repeat;
+            background-size: 50% 50%;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+
+</html>

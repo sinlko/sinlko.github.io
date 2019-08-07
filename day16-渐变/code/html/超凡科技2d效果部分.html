@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        div {
+            height: 200px;
+            width: 200px;
+            margin: 40px auto;
+            background: #58a;
+            position: relative;
+        }
+
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            opacity: 0;
+            transition: transform 1s, opacity 1s;
+        }
+
+        img:nth-child(1) {
+            transform: translate(-130px, -50%);
+        }
+
+        img:nth-child(2) {
+            transform: translate(86px, -50%);
+        }
+
+        div:hover img {
+            transform: translate(-50%, -50%);
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="../images/i5.png" alt="">
+        <img src="../images/i6.png" alt="">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 300px;
+            height: 200px;
+            /* 
+                径向渐变：
+                radial-gradient(center,shape,size,color1,color2,....)
+                
+                center---在旧版本的径向渐变中这个值为点的位置，新版本中这个值为渐变的大小
+                shape---渐变的形状，ellipsis（椭圆，默认值） | circle（圆）
+                size----最近角（closest-corner），最远角（ farthest-corner），最近边（closest-side），最远边（ farthest-side）
+                只能在旧版本的径向渐变中使用
+            
+             */
+            background: -webkit-radial-gradient(10% 20%, farthest-side, red, blue);
+            /* background: radial-gradient(30% 20%, red, blue) */
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            /* 
+                线性渐变：
+                linear-gradient(direction,color1,color2,.....)
+                direction的取值：
+                    to right(从左到右)
+                    to left(从右到左)
+                    to top(从下到上)
+                    to bottom(从上到下)，默认值
+                    to top|bottom right|left(对角渐变)
+                    value deg(角度渐变，deg是角度的单位)
+                新版本角度渐变：
+                90deg----得到从左到有的渐变
+                0deg----得到从下到上的渐变
+                （呈现顺时针的旋转）
+
+                旧版本角度渐变：
+                0deg----得到从左到有的渐变
+                90deg---得到从下到上的渐变
+                （呈现逆时针的旋转）
+                旧版本的角度 + 新版本的角度 = 90deg
+                旧版本的角度 = 90deg - 新版本的角度
+            
+             */
+            background: linear-gradient(30deg, red, blue, pink);
+            background: -webkit-linear-gradient(60deg, red, blue, pink);
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

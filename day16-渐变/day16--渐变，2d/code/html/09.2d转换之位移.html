@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            width: 400px;
+            height: 400px;
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            background: red;
+            /* 
+                2d旋转---transform
+                1、位移：translate(x,y)
+                x---水平方向移动距离（正值往右移动，负值往左移动，可以去百分比[相对于元素本身的宽度来取值]）
+                y---垂直方向的移动距离（正值往下移动，负值往上移动，可以去百分比[相对于元素本身的高度来取值]）
+             */
+            /* transform: translate(50%, 10px) */
+            position: relative;
+            left: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

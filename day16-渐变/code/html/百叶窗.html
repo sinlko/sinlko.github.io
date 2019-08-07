@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>百叶窗</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        div {
+            height: 220px;
+            width: 540px;
+            margin: 20px auto;
+        }
+
+        ul {
+            width: 100%;
+            height: 100%;
+        }
+
+        ul li {
+            float: left;
+            width: 10%;
+            overflow: hidden;
+            box-shadow: 0 2px 8px #666;
+            transition: width 2s;
+        }
+
+        ul li img {
+            height: 220px;
+        }
+
+        ul:hover li {
+            width: 10%;
+        }
+
+        ul li:hover {
+            width: 60%
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>
+                <img src="../images/img1.jpg" alt="">
+            </li>
+            <li>
+                <img src="../images/img2.jpg" alt="">
+            </li>
+            <li>
+                <img src="../images/img3.jpg" alt="">
+            </li>
+            <li>
+                <img src="../images/img4.jpg" alt="">
+            </li>
+            <li>
+                <img src="../images/img5.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
