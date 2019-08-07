@@ -30,3 +30,5 @@
 <a href="https://sinlko.github.io/day15--em,rem,vw/code/html/%E9%A5%BF%E4%BA%86%E5%90%97.html">饿了么</a>
 
 <a href="https://sinlko.github.io/day15--em,rem,vw/code/html/%E5%8F%91%E7%8E%B0.html">发现</a>
+
+<a href="https://sinlko.github.io/day16-%E6%B8%90%E5%8F%98/code/html/%E5%A9%9A%E7%A4%BC%E7%BA%AA.html">婚礼纪</a>
