@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            position: relative;
+            /* 
+                把父元素设置为3d空间，下面的子元素才能做3d转换
+                transform-style: preserve-3d; 
+             */
+            transform-style: preserve-3d;
+        }
+
+        img {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+
+        img:nth-child(1) {
+            /* 
+                3d转换
+                1、位移--transform:translate3d(x,y,z)
+                2、缩放--transform:scale3d(x,y,z)
+                3、旋转--transform:rotate3d(x,y,z,value deg)
+                    x,y,z的取值为1 或者 0，1表示这个轴旋转，0表示不旋转
+                    rotateX(),rotateY(),rotateZ()
+            
+             */
+            transform: translate3d(100px, 100px, 100px);
+        }
+
+
+        img:nth-child(2) {
+            /* transform: translateZ(-100px) */
+            transform: scaleZ(2)
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+        3d转换：x y z 
+        transform:translate3d(x,y,z) | translateX()|translateY() |translateZ()
+
+        2d转换---位移
+        transform:translate(x,y) | translateX()|translateY()
+     -->
+    <img src="../images/expe_xj_xt6.png" alt="">
+    <img src="../images/expe_xj_xt7.png" alt="">
+</body>
+
+</html>

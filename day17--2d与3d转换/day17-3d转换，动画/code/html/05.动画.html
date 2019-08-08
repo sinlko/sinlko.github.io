@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 600px;
+            height: 600px;
+            border: 1px solid red;
+        }
+
+        .box .box1 {
+            width: 100px;
+            height: 100px;
+            background: green;
+            /* 
+                transition 和 animation的区别：
+                transition只能实现一些简单的动画，而且需要一个事件才能执行动画
+                animation能通过节点的方式实现比较复杂的动画效果，不许事件就可以直接执行动画
+             */
+            /* transition: transform 2s; */
+            /* animation: move 3s; */
+            animation-name: move;
+            animation-duration: 3s;
+            /* animation-iteration-count: infinite; */
+            animation-timing-function: linear;
+            /* animation-direction: alternate-reverse */
+            /* animation-delay: 1s; */
+            animation-fill-mode: forwards;
+            animation-play-state: paused;
+            /* 
+                创建一个动画序列：
+                 @keyframes move{
+                     0%{}
+                     100%{}
+                 }
+
+                animation用于设置动画属性：
+                （1）animation-name: move; 动画名称
+                （2）animation-duration: 5s; 执行动画所需要的时间
+                （3）animation-delay: 1s; 延迟多少时间后去执行这个动画效果
+                （4）animation-iteration-count: 2 | infinite(无限循环); 执行次数
+                （5）animation-timing-function: 
+                        linear：线性过渡。等同于贝塞尔曲线(0.0, 0.0, 1.0, 1.0)
+                        ease：平滑过渡。等同于贝塞尔曲线(0.25, 0.1, 0.25, 1.0)
+                        ease-in：由慢到快。等同于贝塞尔曲线(0.42, 0, 1.0, 1.0)
+                        ease-out：由快到慢。等同于贝塞尔曲线(0, 0, 0.58, 1.0)
+                        ease-in-out：由慢到快再到慢。等同于贝塞尔曲线(0.42, 0, 0.58, 1.0)
+                        step-start:马上跳到动画每一结束桢的状态,帧动画
+                （6）animation-direction
+                        normal：正常方向
+                        reverse：反方向运行
+                        alternate：动画先正常运行再反方向运行，并持续交替运行
+                        alternate-reverse：动画先反运行再正方向运行，并持续交替运行
+                （7） animation-fill-mode: forwards;属性规定动画在播放之前或之后，其动画效果是否可见。
+                        none :默认值，不做任何改变
+                        forwards 停留在最后一个步骤
+                (8)animation-play-state:paused（暂停） | running（播放，默认）; 暂停动画
+             */
+        }
+
+        .box:hover .box1 {
+            /* transform: translateX(500px) translateY(500px); */
+            animation-play-state: running;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateX(0px) translateY(0px);
+            }
+
+            /* 25% {
+                transform: translateX(500px) translateY(0px);
+            }
+
+            50% {
+                transform: translateX(500px) translateY(500px);
+            }
+
+            75% {
+                transform: translateX(0px) translateY(500px);
+            } */
+
+            100% {
+                transform: translateX(500px) translateY(500px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1"></div>
+    </div>
+</body>
+
+</html>

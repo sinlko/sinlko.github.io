@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    ul,
+    li {
+        list-style: none;
+
+    }
+
+    html,
+    body {
+        height: 100%;
+        background: black;
+    }
+
+    ul {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        /* perspective: 900px; */
+        transform-style: preserve-3d;
+        /* transition: transform 5s; */
+        animation: move 10s linear infinite normal;
+
+
+    }
+
+    li {
+        height: 300px;
+        width: 300px;
+        position: absolute;
+        opacity: .8;
+        box-shadow: 0 0 10vw 0 currentColor;
+    }
+
+    li:nth-child(1) {
+        color: red;
+        transform: translatez(150px);
+
+    }
+
+    li:nth-child(2) {
+        color: rgb(72, 43, 150);
+        transform: translatez(-150px);
+
+    }
+
+    li:nth-child(3) {
+        color: rgb(81, 148, 37);
+        transform: translatex(150px) rotatey(-90deg);
+    }
+
+    li:nth-child(4) {
+        color: rgb(189, 216, 35);
+        transform: translatex(-150px) rotatey(-90deg);
+    }
+
+    li:nth-child(5) {
+        color: peru;
+        transform: translatey(150px) rotatex(-90deg);
+
+    }
+
+    li:nth-child(6) {
+        color: purple;
+        transform: translatey(-150px) rotatex(-90deg);
+
+    }
+
+    /* ul:hover {
+        transform: rotate3d(1, 1, 0, 180deg); 
+        transform-origin: 150px 150px;
+    } */
+    @keyframes move {
+        to {
+            transform: rotate3d(1, 1, 0, 0deg);
+            transform-origin: 150px 150px;
+
+        }
+
+        from {
+            transform: rotate3d(1, 1, 0, 360deg);
+            transform-origin: 150px 150px;
+        }
+    }
+</style>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+</body>
+
+</html>

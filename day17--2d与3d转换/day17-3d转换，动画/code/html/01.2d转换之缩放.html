@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img {
+            width: 200px;
+            height: 83px;
+            /* transition: width 1s, height 1s; */
+            /* position: relative; */
+            transition: transform 1s;
+            /* 
+                设置转换的基准点：
+                transform-origin：值1 值2
+                值1：left|right|center|数值+px|百分比
+                值2：top|bottonm|cneter|数值+px|百分比
+
+               缩放 --- transform： scale(number)
+                scale(number)---表示水平垂直方向都 缩放一样的比例
+                scale(number1,number2),number--水平方向的缩放比例，number2是垂直方向缩放比例
+                scaleX()
+                scaleY()
+
+                旋转 --- transform：rotate()
+
+                翻转 --- transform：skew()
+                取值：
+                    skew(number)--只表示水平方向翻转
+                    skew(number1,number2)
+                    skewX(number)
+                    skewY(number)
+             */
+            /* transform-origin: 10% bottom; */
+        }
+
+        img:hover {
+            /* width: 300px;
+            height: 300px;
+            left: -26px; */
+            /* transform: scale(.5) */
+            /* transform: scale(1, 2); */
+            /* transform: scale(.5); */
+            transform: skew(0deg, 60deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="../images/expe_xj_xt6.png" alt="">
+    </div>
+</body>
+
+</html>

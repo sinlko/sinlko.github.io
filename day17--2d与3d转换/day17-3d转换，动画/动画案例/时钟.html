@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+        .clock{width: 200px;height: 200px;border:3px solid #ccc;border-radius:50%;margin:100px auto;position:relative;}
+        .clock .xian{
+            width: 6px;
+            height: 200px;
+            background: #ccc;
+            position:absolute;
+            left: 50%;
+            margin-left: -3px;
+            top: 0;
+        }
+        .clock .xian1{transform:rotate(30deg);}
+        .clock .xian2{transform:rotate(60deg);}
+        .clock .xian3{transform:rotate(90deg);}
+        .clock .xian4{transform:rotate(120deg);}
+        .clock .xian5{transform:rotate(150deg);}
+        .clock .xian6{transform:rotate(180deg);}
+        .clock .cover{
+            width: 160px;
+            height: 160px;
+            background: #fff;
+            position:absolute;
+            left: 50%;top: 50%;
+            margin-left: -80px;
+            margin-top: -80px;
+            border-radius:50%;
+        }
+        .clock .zhen{
+            position:absolute;
+            left: 50%;top: 50%;
+            transform:translate(-50%,-100%) rotate(0deg);
+            transform-origin:center bottom;
+        }
+        .clock .hour{
+            width: 6px;
+            height: 60px;
+            background: red;
+            animation:xuanzhuan 43200s linear;
+        }
+        .clock .minute{width:4px;height: 70px;background: green;animation:xuanzhuan 3600s linear;}
+        .clock .second{width: 2px;height: 80px;background: blue;animation:xuanzhuan 60s steps(60);}
+        .clock .dotted{width: 20px;height: 20px;background: #ccc;position:absolute;left: 50%;top: 50%;margin-left: -10px;margin-top: -10px;border-radius: 50%;}
+        @keyframes xuanzhuan{
+            0%{}
+            100%{transform:translate(-50%,-100%) rotate(360deg);}
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div class="xian xian1"></div>
+        <div class="xian xian2"></div>
+        <div class="xian xian3"></div>
+        <div class="xian xian4"></div>
+        <div class="xian xian5"></div>
+        <div class="xian xian6"></div>
+        <div class="cover"></div>
+        <div class="zhen hour"></div>
+        <div class="zhen minute"></div>
+        <div class="zhen second"></div>
+        <div class="dotted"></div>
+    </div>
+</body>
+</html>
